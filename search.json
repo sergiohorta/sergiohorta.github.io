@@ -1,0 +1,751 @@
+[
+  {
+    "objectID": "VALIDATION_v0.5.html",
+    "href": "VALIDATION_v0.5.html",
+    "title": "Validation v0.5",
+    "section": "",
+    "text": "Validation v0.5\nChecks performed in the build environment:\n\n_quarto.yml parsed as valid YAML.\nEvery .qmd was passed through Pandoc 3.1.11.1 and checked to ensure custom HTML is not converted to escaped &lt;pre&gt;&lt;code&gt; blocks.\nNews listings use explicit language-local globs.\nCARLA is not rendered in the personal Projects page.\nA white-background version of the micromechanical damage image is included and referenced.\n\nFinal quarto preview / quarto render should be executed with the local Quarto installation."
+  },
+  {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "My main teaching activity is carried out at the School of Industrial and Aerospace Engineering of Toledo (EIIA-To), University of Castilla-La Mancha."
+  },
+  {
+    "objectID": "teaching.html#resistencia-de-materiales",
+    "href": "teaching.html#resistencia-de-materiales",
+    "title": "Teaching",
+    "section": "Resistencia de Materiales",
+    "text": "Resistencia de Materiales\nCurrently taught in the second year of the Bachelor’s Degree in Aerospace Engineering and, when applicable, in the Bachelor’s Degrees in Electrical Engineering and Industrial Electronics and Automation Engineering.\nTopics include stress and strain, axial loading, torsion, bending, shear stresses, deflection and basic structural analysis."
+  },
+  {
+    "objectID": "teaching.html#mecánica-del-sólido-deformable",
+    "href": "teaching.html#mecánica-del-sólido-deformable",
+    "title": "Teaching",
+    "section": "Mecánica del Sólido Deformable",
+    "text": "Mecánica del Sólido Deformable\nSecond-year subject in the Bachelor’s Degree in Aerospace Engineering. The course develops continuum and solid mechanics concepts with analytical, experimental and numerical components.\nCurrent teaching developments include practical use of Abaqus, experimental demonstrations and activities that connect theoretical models with measured structural response."
+  },
+  {
+    "objectID": "teaching.html#educational-innovation",
+    "href": "teaching.html#educational-innovation",
+    "title": "Teaching",
+    "section": "Educational innovation",
+    "text": "Educational innovation\nSelected projects include:\n\nPÍXEL — PÍldoras eXperimentales para la Enseñanza de ingeniería en el auLa (2025–2027), co-led within a UCLM teaching innovation project.\nFORMATING — Fortaleciendo las competencias en métodos matemáticos mediante software MATLAB en Ingeniería (2023–2025), PI."
+  },
+  {
+    "objectID": "teaching.html#final-degree-and-masters-projects",
+    "href": "teaching.html#final-degree-and-masters-projects",
+    "title": "Teaching",
+    "section": "Final Degree and Master’s Projects",
+    "text": "Final Degree and Master’s Projects\nSupervision is mainly connected with four recurring lines:\n\n  Composite materialsManufacture, multiaxial/shear characterisation, damage, irradiation and advanced CFRP testing.\n  Numerical mechanicsFinite-element analysis, crack initiation/propagation, micromechanics and damage models.\n  Lightweight structuresSandwich structures, structural optimisation and experimental validation.\n\nSelected supervised or co-supervised projects include:\n\nAyman Berrem Khalid (2025): improvement of the design and manufacture of a device for biaxial testing — one of the co-supervised TFGs subsequently recognised with an award.\nCésar Cano García (2025): ionising radiation in composite materials.\nClaudia Llario Alegre (2024): device for tension–compression biaxial testing in a uniaxial machine — graded 10/10 and awarded a quality mention.\nAbraham Sánchez Romero (2023): processing and mechanical characterisation of lightweight CFRP–Nomex sandwich structures — award-recognised co-supervised TFG.\nVicente Arévalo Madrid (2022): micromechanical modelling of unidirectional fibre-reinforced composites — graded 10/10, quality mention and subsequent recognition.\nAdditional projects cover topology optimisation, additive manufacturing, pure-shear testing, image-based crack measurement and structural laboratory design."
+  },
+  {
+    "objectID": "README_FIRST.html",
+    "href": "README_FIRST.html",
+    "title": "Sergio Horta Muñoz — Quarto academic website · v0.3",
+    "section": "",
+    "text": "This folder contains the complete editable source of the website.\n\n\n\n\nDouble-click:\nPREVIEW_WINDOWS.bat\n\n\n\nRun:\nquarto check\nquarto preview\nQuarto will open a local URL such as http://localhost:xxxx/. Nothing is published on the Internet at this stage.\n\n\n\n\nEnglish is the main version:\n\nindex.qmd\nresearch.qmd\nprojects.qmd\npublications.qmd\nteaching.qmd\nnews.qmd\nabout.qmd\ncontact.qmd\n\nThe alternative Spanish version is under:\n\nes/\n\nBoth versions share photographs, logos, bibliography and visual design.\n\n\n\n\n_quarto.yml — navigation and global configuration.\nstyles.css — visual design.\nreferences.bib — publication database.\nassets/photos/ — photographs.\nassets/logos/ — institutional/group logos.\nnews/ and es/news/ — news entries.\nassets/language-nav.html — small script that switches the navbar and language link between EN/ES.\n\n\n\n\nquarto render\nThe output is created in _site/. Do not edit _site/ manually.\n\n\n\nEnglish remains the default site. The ES button in the navigation bar opens the Spanish equivalent of the current main page. In Spanish it changes to EN.\n\n\n\nOnce the local version is approved:\n\nCreate a public GitHub repository.\nCommit this source folder.\nRun quarto publish gh-pages.\nSelect gh-pages as the Pages branch if GitHub does not do so automatically.\n\nWe can perform that step together once the content/design is considered ready."
+  },
+  {
+    "objectID": "README_FIRST.html#quick-preview",
+    "href": "README_FIRST.html#quick-preview",
+    "title": "Sergio Horta Muñoz — Quarto academic website · v0.3",
+    "section": "",
+    "text": "Double-click:\nPREVIEW_WINDOWS.bat\n\n\n\nRun:\nquarto check\nquarto preview\nQuarto will open a local URL such as http://localhost:xxxx/. Nothing is published on the Internet at this stage."
+  },
+  {
+    "objectID": "README_FIRST.html#main-structure",
+    "href": "README_FIRST.html#main-structure",
+    "title": "Sergio Horta Muñoz — Quarto academic website · v0.3",
+    "section": "",
+    "text": "English is the main version:\n\nindex.qmd\nresearch.qmd\nprojects.qmd\npublications.qmd\nteaching.qmd\nnews.qmd\nabout.qmd\ncontact.qmd\n\nThe alternative Spanish version is under:\n\nes/\n\nBoth versions share photographs, logos, bibliography and visual design."
+  },
+  {
+    "objectID": "README_FIRST.html#files-you-will-edit-most-often",
+    "href": "README_FIRST.html#files-you-will-edit-most-often",
+    "title": "Sergio Horta Muñoz — Quarto academic website · v0.3",
+    "section": "",
+    "text": "_quarto.yml — navigation and global configuration.\nstyles.css — visual design.\nreferences.bib — publication database.\nassets/photos/ — photographs.\nassets/logos/ — institutional/group logos.\nnews/ and es/news/ — news entries.\nassets/language-nav.html — small script that switches the navbar and language link between EN/ES."
+  },
+  {
+    "objectID": "README_FIRST.html#render-the-complete-static-site",
+    "href": "README_FIRST.html#render-the-complete-static-site",
+    "title": "Sergio Horta Muñoz — Quarto academic website · v0.3",
+    "section": "",
+    "text": "quarto render\nThe output is created in _site/. Do not edit _site/ manually."
+  },
+  {
+    "objectID": "README_FIRST.html#current-language-behaviour",
+    "href": "README_FIRST.html#current-language-behaviour",
+    "title": "Sergio Horta Muñoz — Quarto academic website · v0.3",
+    "section": "",
+    "text": "English remains the default site. The ES button in the navigation bar opens the Spanish equivalent of the current main page. In Spanish it changes to EN."
+  },
+  {
+    "objectID": "README_FIRST.html#publishing-later-with-github-pages",
+    "href": "README_FIRST.html#publishing-later-with-github-pages",
+    "title": "Sergio Horta Muñoz — Quarto academic website · v0.3",
+    "section": "",
+    "text": "Once the local version is approved:\n\nCreate a public GitHub repository.\nCommit this source folder.\nRun quarto publish gh-pages.\nSelect gh-pages as the Pages branch if GitHub does not do so automatically.\n\nWe can perform that step together once the content/design is considered ready."
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "2026Comparison of the in-plane shear response of a FRP obtained by biaxial tension-compression test and standard methods.Composites Science and Technology 276, 111519. DOI\n  2024Experimental evaluation of the use of cruciform specimens for biaxial stability analysis.Composites Part B: Engineering 286, 111764. Compression–compression biaxial testing and stability. DOI\n  2023Tension–compression biaxial test with ±45° symmetric angle-ply laminates for determining the pure shear response in principal material directions of a lamina.Composites Part B: Engineering 261, 110792. DOI\n  2022Pseudo-ductile effects in ±45° angle-ply CFRP laminates under uniaxial loading: compression and cyclic tensile test.Composites Part B: Engineering 233, 109631. DOI\n  2020Mechanical response of ±45° angle-ply CFRP plates under low-velocity impact and quasi-static indentation: influence of the multidirectional strain state.Composites Science and Technology 194, 108145. DOI\n  2018Pseudo-ductility in flexural testing of symmetric ±45° angle-ply CFRP laminates.Composites Science and Technology 156, 8–18. DOI"
+  },
+  {
+    "objectID": "publications.html#latest-work",
+    "href": "publications.html#latest-work",
+    "title": "Publications",
+    "section": "",
+    "text": "2026Comparison of the in-plane shear response of a FRP obtained by biaxial tension-compression test and standard methods.Composites Science and Technology 276, 111519. DOI\n  2024Experimental evaluation of the use of cruciform specimens for biaxial stability analysis.Composites Part B: Engineering 286, 111764. Compression–compression biaxial testing and stability. DOI\n  2023Tension–compression biaxial test with ±45° symmetric angle-ply laminates for determining the pure shear response in principal material directions of a lamina.Composites Part B: Engineering 261, 110792. DOI\n  2022Pseudo-ductile effects in ±45° angle-ply CFRP laminates under uniaxial loading: compression and cyclic tensile test.Composites Part B: Engineering 233, 109631. DOI\n  2020Mechanical response of ±45° angle-ply CFRP plates under low-velocity impact and quasi-static indentation: influence of the multidirectional strain state.Composites Science and Technology 194, 108145. DOI\n  2018Pseudo-ductility in flexural testing of symmetric ±45° angle-ply CFRP laminates.Composites Science and Technology 156, 8–18. DOI"
+  },
+  {
+    "objectID": "publications.html#recent-conference-contribution",
+    "href": "publications.html#recent-conference-contribution",
+    "title": "Publications",
+    "section": "Recent conference contribution",
+    "text": "Recent conference contribution\nEffect of Relative Fiber Angles and Distances in Microscale Modelling of Crack Initiation and Propagation under Transverse and Shear Loading.\nOral communication presented at ECCM22 — 22nd European Conference on Composite Materials, Oslo, 2026."
+  },
+  {
+    "objectID": "publications.html#main-research-themes",
+    "href": "publications.html#main-research-themes",
+    "title": "Publications",
+    "section": "Main research themes",
+    "text": "Main research themes\n\n  Biaxial testing & shearCruciform specimens, tension–compression and compression–compression tests, shear characterisation, stability and standardisation.\n  Non-linearity & damagePseudo-ductility, angle-ply laminates, cyclic loading, impact and progressive changes in stiffness.\n  Computational mechanicsMicromechanics, damage modelling, piezoelectric optimisation and other finite-element applications."
+  },
+  {
+    "objectID": "publications.html#full-publication-list",
+    "href": "publications.html#full-publication-list",
+    "title": "Publications",
+    "section": "Full publication list",
+    "text": "Full publication list\n\n\nEscrig, S., C. Rappold, J. Bernabeu, et al. 2024. “First Test of Energy Response of the Micro-Vertex Detection System for the WASA-FRS Experiments.” Nuclear Instruments and Methods in Physics Research Section A 1064: 169392. https://doi.org/10.1016/j.nima.2024.169392.\n\n\nHorta Muñoz, S., and D. Ruiz. 2023. “Optimization of the Polarization Profile of Conical-Shaped Shells Piezoelectric Sensors.” Sensors 23 (1): 442. https://doi.org/10.3390/s23010442.\n\n\nHorta Muñoz, S., and M. C. Serna Moreno. 2018. “Numerical Modelling of the Pseudo-Ductility Effect in ±45° Angle-Ply Laminates Under Biaxial Loading.” 18th European Conference on Composite Materials (ECCM18) (Athens, Greece).\n\n\nHorta Muñoz, S., and M. C. Serna Moreno. 2020a. “Ensayos Biaxiales Sobre Probetas Cruciformes de Laminados CFRP Ante Presencia de Cargas de Compresión.” Materiales Compuestos 4 (4): 77–83.\n\n\nHorta Muñoz, S., and M. C. Serna Moreno. 2020b. “Multiaxial Stress and Strain Analysis on Laminated Plates Under Different Flexural Loading Rates.” IOP Conference Series: Materials Science and Engineering 942 (1): 012022. https://doi.org/10.1088/1757-899X/942/1/012022.\n\n\nHorta Muñoz, S., and M. C. Serna Moreno. 2021. “Estudio de La Respuesta No Lineal Ante Diferentes Estados de Carga Multiaxiales En Laminados de Matriz Polimérica Reforzados Con Fibra.” Materiales Compuestos 5 (4): 25–30.\n\n\nHorta Muñoz, S., and M. C. Serna Moreno. 2022. “Advances in Cruciform Biaxial Testing of Fibre-Reinforced Polymers.” Polymers 14 (4): 686. https://doi.org/10.3390/polym14040686.\n\n\nHorta Muñoz, S., and M. C. Serna Moreno. 2023. “Tension–Compression Biaxial Test with \\(\\pm45^{\\circ}\\) Symmetric Angle-Ply Laminates for Determining the Pure Shear Response in Principal Material Directions of a Lamina.” Composites Part B: Engineering 261: 110792. https://doi.org/10.1016/j.compositesb.2023.110792.\n\n\nHorta Muñoz, S., and M. C. Serna Moreno. 2024a. “Análisis Del Estado Tensión-Deformación de Cortadura Pura Obtenido Mediante El Ensayo Biaxial Tracción-Compresión.” Materiales Compuestos 8 (3).\n\n\nHorta Muñoz, S., and M. C. Serna Moreno. 2024b. “Enhanced Pure Shear Characterization of FRP Using Tension-Compression Testing Methodology on Cruciform Specimens.” 21st European Conference on Composite Materials (ECCM21) (Nantes, France).\n\n\nHorta Muñoz, S., and M. C. Serna Moreno. 2026. “Effect of Relative Fiber Angles and Distances in Microscale Modelling of Crack Initiation and Propagation Under Transverse and Shear Loading.” Revista de Materiales Compuestos. https://www.scipedia.com/public/Horta_Munoz_Serna_Moreno_2025a.\n\n\nHorta Muñoz, S., M. C. Serna Moreno, D. Garoz, R. D. B. Sevenois, and W. Van Paepegem. 2023. “Micromechanical Modeling of the Non-Linear Behaviour of Angle-Ply Laminates Under Different Plane-Stress States.” Materiales Compuestos 7 (3).\n\n\nHorta Muñoz, S., M. C. Serna Moreno, J. M. González Domínguez, P. A. Morales Rodríguez, J. L. Martínez Vicente, and E. Vázquez Fernández-Pacheco. 2018. “Fabricación y Caracterización de Materiales Compuestos Reforzados Con Óxido de Grafeno.” Materiales Compuestos 2 (4): 22–25.\n\n\nHorta Muñoz, S., M. C. Serna Moreno, J. M. González-Domínguez, P. A. Morales-Rodríguez, and E. Vázquez. 2019. “Experimental, Numerical, and Analytical Study on the Effect of Graphene Oxide in the Mechanical Properties of a Solvent-Free Reinforced Epoxy Resin.” Polymers 11 (12): 2115. https://doi.org/10.3390/polym11122115.\n\n\nLópez Cela, J. J., M. C. Serna Moreno, S. Horta Muñoz, and J. L. Martínez Vicente. 2025. “Biaxial Behaviour of Composite Materials.” In Advances on Composite Materials and Solid Mechanics.\n\n\nMartín-Nieto, M., D. Castaño, S. Horta Muñoz, and D. Ruiz. 2024a. “Simplification of Electrode Profiles for Piezoelectric Modal Sensors by Controlling Gap-Phase Length.” Mathematics 12 (10): 1525. https://doi.org/10.3390/math12101525.\n\n\nMartín-Nieto, M., D. Castaño, S. Horta Muñoz, and D. Ruiz. 2024b. “Solving Mazes: A New Approach Based on Spectral Graph Theory.” Mathematics 12 (15): 2305. https://doi.org/10.3390/math12152305.\n\n\nRelimpio, David, M. C. Serna Moreno, S. Horta Muñoz, et al. 2024. “Improved Stability and Specificity of Baits for Oral Administration of Substances to Wild Boar.” Preventive Veterinary Medicine 229: 106241. https://doi.org/10.1016/j.prevetmed.2024.106241.\n\n\nRodrigo-Carranza, Víctor, Wouter Hoogkamer, J. M. González-Ravé, et al. 2024. “Influence of Different Midsole Foam in Advanced Footwear Technology Use on Running Economy and Biomechanics in Trained Runners.” Scandinavian Journal of Medicine and Science in Sports 34 (1). https://doi.org/10.1111/sms.14526.\n\n\nRuiz, D., and S. Horta Muñoz. 2021. “Optimal Design of Electrode Polarization in Piezoelectric Unimorph Beams to Induce Traveling Waves.” Applied Mathematical Modelling 99: 1–13. https://doi.org/10.1016/j.apm.2021.06.007.\n\n\nRuiz, D., S. Horta Muñoz, and R. García-Contreras. 2022. “Simultaneous Design of the Host Structure and the Polarisation Profile of Piezoelectric Sensors Applied to Cylindrical Shell Structures.” Mathematics 10 (15): 2753. https://doi.org/10.3390/math10152753.\n\n\nSánchez Romero, A., A. Romero Gutiérrez, and S. Horta Muñoz. 2025. “Procesamiento y Caracterización de Estructuras Ligeras Tipo Sándwich (FC-Nómex).” Material-ES 9 (1): 1–4.\n\n\nSanz-Herrera, J. A., M. C. Serna Moreno, S. Horta Muñoz, and R. Chamorro Moreno. 2026. “Full-Field Elastic Solution Reconstruction of Mechanical Tests Using a Physics-Based Inverse Method.” Composite Structures 387: 120278. https://doi.org/10.1016/j.compstruct.2026.120278.\n\n\nSerna Moreno, M. C., and S. Horta Muñoz. 2020a. “Elastic Stability in Biaxial Testing with Cruciform Specimens Subjected to Compressive Loading.” Composite Structures 234: 111697. https://doi.org/10.1016/j.compstruct.2019.111697.\n\n\nSerna Moreno, M. C., and S. Horta Muñoz. 2020b. “Mechanical Response of \\(\\pm45^{\\circ}\\) Angle-Ply CFRP Plates Under Low-Velocity Impact and Quasi-Static Indentation: Influence of the Multidirectional Strain State.” Composites Science and Technology 194: 108145. https://doi.org/10.1016/j.compscitech.2020.108145.\n\n\nSerna Moreno, M. C., and S. Horta Muñoz. 2022a. “Dispositivo Antipandeo Para Ensayos Biaxiales Con Probetas Cruciformes.” Materiales Compuestos 5 (2): 131–36.\n\n\nSerna Moreno, M. C., and S. Horta Muñoz. 2022b. “Pseudo-Ductile Effects in \\(\\pm45^{\\circ}\\) Angle-Ply CFRP Laminates Under Uniaxial Loading: Compression and Cyclic Tensile Test.” Composites Part B: Engineering 233: 109631. https://doi.org/10.1016/j.compositesb.2022.109631.\n\n\nSerna Moreno, M. C., and S. Horta Muñoz. 2022c. “Pseudo-Ductilidad En Laminados ±45º Ante Cargas de Tracción y de Compresión.” Materiales Compuestos 7 (4): 176. https://doi.org/10.23967/r.matcomp.2022.10.006.\n\n\nSerna Moreno, M. C., and S. Horta Muñoz. 2022d. “Surface Energy in Impact Testing of Unnotched Specimens: Influence of Carbon Nano-Fillers in Epoxy Matrix.” Composite Structures 279: 113928. https://doi.org/10.1016/j.compstruct.2021.113928.\n\n\nSerna Moreno, M. C., and S. Horta Muñoz. 2024. “Experimental Evaluation of the Use of Cruciform Specimens for Biaxial Stability Analysis.” Composites Part B: Engineering 286: 111764. https://doi.org/10.1016/j.compositesb.2024.111764.\n\n\nSerna Moreno, M. C., and S. Horta Muñoz. 2026. “Buckling Analysis of Laminates Subjected to Biaxial Loads Using Cruciform Specimens.” Revista de Materiales Compuestos 9 (3). https://www.scipedia.com/profile/sergio.horta/contributions.\n\n\nSerna Moreno, M. C., S. Horta Muñoz, and J. García Delgado. 2026. “Comparison of the in-Plane Shear Response of a FRP Obtained by Biaxial Tension–Compression Test and Standard Methods.” Composites Science and Technology 276: 111519. https://doi.org/10.1016/j.compscitech.2026.111519.\n\n\nSerna Moreno, M. C., S. Horta Muñoz, and J. J. López Cela. 2025. “Recommended Methodology in Specification UNE 0074:2023 to Determine Shear Properties by Means of the Biaxial Tension–Compression Test with a Cruciform Specimen.” Revista de Materiales Compuestos 8 (7). https://doi.org/10.23967/r.matcomp.2025.07.03.\n\n\nSerna Moreno, M. C., S. Horta Muñoz, A. Romero Gutiérrez, et al. 2018. “Pseudo-Ductility in Flexural Testing of Symmetric \\(\\pm45^{\\circ}\\) Angle-Ply CFRP Laminates.” Composites Science and Technology 156: 8–18. https://doi.org/10.1016/j.compscitech.2017.12.015.\n\n\nSerna Moreno, M. C., S. Horta Muñoz, A. Romero Gutiérrez, et al. 2020. “Pseudo-Ductile Response of ±45° CFRP Submitted to Flexural Loading.” ECCM 2018 – 18th European Conference on Composite Materials.\n\n\nSerna Moreno, M. C., S. Horta Muñoz, and A. Ruiz Gracia. 2022. “Design of Triaxial Tests with Polymer Matrix Composites.” Polymers 14 (4): 837. https://doi.org/10.3390/polym14040837.\n\n\nSerna Moreno, M. C., A. Romero Gutiérrez, J. L. Martínez Vicente, S. Horta Muñoz, P. A. Morales Rodríguez, and C. Rappold. 2018. “Flexión En Materiales Compuestos Con Distinta Respuesta a Tracción y a Compresión.” Materiales Compuestos 2 (4): 1–4."
+  },
+  {
+    "objectID": "news.html",
+    "href": "news.html",
+    "title": "News",
+    "section": "",
+    "text": "Short updates on research, infrastructure, conferences, dissemination and teaching-related activities. Whenever possible, entries link to the institutional or project source.\n\n\n\n\n\n\n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nNuevo equipamiento para ensayos axil–torsión en la EIIA-To\n\n\n\nInfraestructura\n\nMecánica experimental\n\nCOMES\n\n\n\nNueva capacidad experimental en la EIIA-To para aplicar cargas mecánicas combinadas axiales y torsionales.\n\n\n\nJul 13, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nNew axial–torsion testing equipment at EIIA-To\n\n\n\nResearch infrastructure\n\nExperimental mechanics\n\nCOMES\n\n\n\nNew experimental capacity at EIIA-To for combined axial and torsional mechanical loading.\n\n\n\nJul 13, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nCOMES en ECCM22, Oslo\n\n\n\nCongreso\n\nMateriales compuestos\n\nCOMES\n\nRENO\n\nCORA\n\n\n\nContribuciones de COMES sobre ensayo biaxial y modelado micromecánico en el 22nd European Conference on Composite Materials.\n\n\n\nJun 25, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nCOMES at ECCM22 in Oslo\n\n\n\nConference\n\nComposites\n\nCOMES\n\nRENO\n\nCORA\n\n\n\nCOMES contributions on biaxial testing and micromechanical modelling at the 22nd European Conference on Composite Materials.\n\n\n\nJun 25, 2026\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "news/2026-07-13-axial-torsion/index.html",
+    "href": "news/2026-07-13-axial-torsion/index.html",
+    "title": "New axial–torsion testing equipment at EIIA-To",
+    "section": "",
+    "text": "The experimental capabilities available at EIIA-To have expanded with equipment for combined axial–torsion mechanical testing. The system complements the multiaxial and full-field experimental methods used in current work on composite materials and other structural materials.\n\n\n\nAxial–torsion testing equipment at EIIA-To.\n\n\nRead the UCLM news item"
+  },
+  {
+    "objectID": "GUIA_PUBLICACION_GITHUB.html",
+    "href": "GUIA_PUBLICACION_GITHUB.html",
+    "title": "Publicación de las webs Quarto en GitHub Pages",
+    "section": "",
+    "text": "Web personal: repositorio TU_USUARIO.github.io en tu cuenta personal.\nRENO: repositorio público reno en la organización comes-uclm.\nCORA: repositorio público cora en la organización comes-uclm.\nCARLA: repositorio carla cuando se decida publicarlo; mientras tanto puede mantenerse local/privado.\nBISHEAR: no modificar el repositorio existente que sirve https://comes-uclm.github.io/.\n\nLos archivos fuente (.qmd, _quarto.yml, styles.css, assets/, etc.) se guardan en la rama main. La carpeta _site/ NO se sube: Quarto la vuelve a generar. quarto publish gh-pages crea y actualiza la rama gh-pages con el HTML renderizado.\n\n\n\n\nCrear en GitHub un repositorio vacío y público. No añadir README, licencia ni .gitignore desde la web.\nAbrir Git Bash o Terminal en la carpeta del proyecto.\nEjecutar:\n\ngit init\ngit branch -M main\ngit add .\ngit commit -m \"Initial Quarto website\"\ngit remote add origin https://github.com/OWNER/REPOSITORY.git\ngit push -u origin main\n\nPublicar:\n\nquarto publish gh-pages\nEn los sitios de proyecto (comes-uclm.github.io/reno/, etc.), GitHub suele detectar automáticamente la rama gh-pages. Si no lo hace: Repository &gt; Settings &gt; Pages &gt; Source: Deploy from a branch &gt; Branch: gh-pages &gt; / (root) &gt; Save.\n\n\n\nDespués de editar y comprobar con quarto preview:\ngit add .\ngit commit -m \"Update website\"\ngit push\nquarto publish gh-pages\nTambién puede ejecutarse PUBLISH_GITHUB_WINDOWS.bat para el último paso.\n\n\n\nEl repositorio debe llamarse exactamente TU_USUARIO.github.io. Tras el primer quarto publish gh-pages, entrar en Settings &gt; Pages y seleccionar manualmente gh-pages como rama de publicación, porque los sitios de usuario/organización usan un comportamiento distinto a los sitios de proyecto."
+  },
+  {
+    "objectID": "GUIA_PUBLICACION_GITHUB.html#estructura-recomendada",
+    "href": "GUIA_PUBLICACION_GITHUB.html#estructura-recomendada",
+    "title": "Publicación de las webs Quarto en GitHub Pages",
+    "section": "",
+    "text": "Web personal: repositorio TU_USUARIO.github.io en tu cuenta personal.\nRENO: repositorio público reno en la organización comes-uclm.\nCORA: repositorio público cora en la organización comes-uclm.\nCARLA: repositorio carla cuando se decida publicarlo; mientras tanto puede mantenerse local/privado.\nBISHEAR: no modificar el repositorio existente que sirve https://comes-uclm.github.io/.\n\nLos archivos fuente (.qmd, _quarto.yml, styles.css, assets/, etc.) se guardan en la rama main. La carpeta _site/ NO se sube: Quarto la vuelve a generar. quarto publish gh-pages crea y actualiza la rama gh-pages con el HTML renderizado."
+  },
+  {
+    "objectID": "GUIA_PUBLICACION_GITHUB.html#primera-publicación-de-un-proyecto",
+    "href": "GUIA_PUBLICACION_GITHUB.html#primera-publicación-de-un-proyecto",
+    "title": "Publicación de las webs Quarto en GitHub Pages",
+    "section": "",
+    "text": "Crear en GitHub un repositorio vacío y público. No añadir README, licencia ni .gitignore desde la web.\nAbrir Git Bash o Terminal en la carpeta del proyecto.\nEjecutar:\n\ngit init\ngit branch -M main\ngit add .\ngit commit -m \"Initial Quarto website\"\ngit remote add origin https://github.com/OWNER/REPOSITORY.git\ngit push -u origin main\n\nPublicar:\n\nquarto publish gh-pages\nEn los sitios de proyecto (comes-uclm.github.io/reno/, etc.), GitHub suele detectar automáticamente la rama gh-pages. Si no lo hace: Repository &gt; Settings &gt; Pages &gt; Source: Deploy from a branch &gt; Branch: gh-pages &gt; / (root) &gt; Save."
+  },
+  {
+    "objectID": "GUIA_PUBLICACION_GITHUB.html#actualizaciones-posteriores",
+    "href": "GUIA_PUBLICACION_GITHUB.html#actualizaciones-posteriores",
+    "title": "Publicación de las webs Quarto en GitHub Pages",
+    "section": "",
+    "text": "Después de editar y comprobar con quarto preview:\ngit add .\ngit commit -m \"Update website\"\ngit push\nquarto publish gh-pages\nTambién puede ejecutarse PUBLISH_GITHUB_WINDOWS.bat para el último paso."
+  },
+  {
+    "objectID": "GUIA_PUBLICACION_GITHUB.html#web-personal",
+    "href": "GUIA_PUBLICACION_GITHUB.html#web-personal",
+    "title": "Publicación de las webs Quarto en GitHub Pages",
+    "section": "",
+    "text": "El repositorio debe llamarse exactamente TU_USUARIO.github.io. Tras el primer quarto publish gh-pages, entrar en Settings &gt; Pages y seleccionar manualmente gh-pages como rama de publicación, porque los sitios de usuario/organización usan un comportamiento distinto a los sitios de proyecto."
+  },
+  {
+    "objectID": "FILE_INVENTORY.html",
+    "href": "FILE_INVENTORY.html",
+    "title": "File inventory · v0.3",
+    "section": "",
+    "text": "_quarto.yml\nstyles.css\nassets/language-nav.html\nEnglish .qmd pages in the project root\nSpanish .qmd pages in es/\n\n\n\n\n\nreferences.bib\nnews/\nes/news/\n\n\n\n\n\nassets/photos/\nassets/numerical/\nassets/logos/\n\n\n\n\n\nPREVIEW_WINDOWS.bat\nRENDER_WINDOWS.bat\npreview_mac_linux.sh\n\n\n\n\n\nREADME_FIRST.md\nGUIA_PASO_A_PASO_ES.md\nCHANGELOG_v0.3.md\nTODO_BEFORE_PUBLICATION.md\nPUBLICATION_SELECTION_NOTES.md"
+  },
+  {
+    "objectID": "FILE_INVENTORY.html#core-website",
+    "href": "FILE_INVENTORY.html#core-website",
+    "title": "File inventory · v0.3",
+    "section": "",
+    "text": "_quarto.yml\nstyles.css\nassets/language-nav.html\nEnglish .qmd pages in the project root\nSpanish .qmd pages in es/"
+  },
+  {
+    "objectID": "FILE_INVENTORY.html#content",
+    "href": "FILE_INVENTORY.html#content",
+    "title": "File inventory · v0.3",
+    "section": "",
+    "text": "references.bib\nnews/\nes/news/"
+  },
+  {
+    "objectID": "FILE_INVENTORY.html#media",
+    "href": "FILE_INVENTORY.html#media",
+    "title": "File inventory · v0.3",
+    "section": "",
+    "text": "assets/photos/\nassets/numerical/\nassets/logos/"
+  },
+  {
+    "objectID": "FILE_INVENTORY.html#local-preview-render",
+    "href": "FILE_INVENTORY.html#local-preview-render",
+    "title": "File inventory · v0.3",
+    "section": "",
+    "text": "PREVIEW_WINDOWS.bat\nRENDER_WINDOWS.bat\npreview_mac_linux.sh"
+  },
+  {
+    "objectID": "FILE_INVENTORY.html#documentation",
+    "href": "FILE_INVENTORY.html#documentation",
+    "title": "File inventory · v0.3",
+    "section": "",
+    "text": "README_FIRST.md\nGUIA_PASO_A_PASO_ES.md\nCHANGELOG_v0.3.md\nTODO_BEFORE_PUBLICATION.md\nPUBLICATION_SELECTION_NOTES.md"
+  },
+  {
+    "objectID": "es/research.html",
+    "href": "es/research.html",
+    "title": "Investigación",
+    "section": "",
+    "text": "Mi investigación se desarrolla dentro del grupo COMES — Mecánica de los Medios Continuos, Ingeniería de Estructuras y de Materiales de la Universidad de Castilla-La Mancha. El hilo conductor es la respuesta mecánica de materiales y estructuras ante estados de carga complejos, combinando experimentación avanzada con modelado analítico y numérico.\nGrupo de investigación COMES"
+  },
+  {
+    "objectID": "es/research.html#caracterización-a-cortadura-y-normalización",
+    "href": "es/research.html#caracterización-a-cortadura-y-normalización",
+    "title": "Investigación",
+    "section": "Caracterización a cortadura y normalización",
+    "text": "Caracterización a cortadura y normalización\n\n  \n  Metodología destacadaEnsayo biaxial tracción–compresión · UNE 0074:2023Una línea central es la determinación de propiedades de cortadura en el plano mediante un ensayo biaxial tracción–compresión con probeta cruciforme. La metodología desarrollada en COMES contribuyó a la UNE 0074:2023 y al proyecto de prueba de concepto BISHEAR.El ensayo se compara con métodos convencionales de cortadura para analizar el estado tensión–deformación, la accesibilidad experimental y su utilidad en la caracterización avanzada de materiales compuestos.\n\n\n  \n    \n    Iosipescu · ASTM D5379/D5379M\n    Método de viga entallada en V empleado para determinar propiedades de cortadura en el plano de materiales compuestos.\n  \n  \n    \n    V-notched rail shear · ASTM D7078/D7078M\n    Método de cortadura mediante raíles empleado como referencia para comparar la respuesta no lineal y la resistencia a cortadura.\n  \n  \n    \n    Tracción ±45° · ASTM D3518/D3518M\n    Caracterización a tracción de un laminado ±45°, ampliamente utilizada para obtener la evolución tensión–deformación de cortadura en el plano.\n  \n  \n    \n    Capacidad biaxial en el INAIA\n    El sistema Servosis de cuatro actuadores amplía el espacio de estados de carga biaxiales y las posibilidades de instrumentación de campo completo."
+  },
+  {
+    "objectID": "es/research.html#capacidades-experimentales-y-numéricas",
+    "href": "es/research.html#capacidades-experimentales-y-numéricas",
+    "title": "Investigación",
+    "section": "Capacidades experimentales y numéricas",
+    "text": "Capacidades experimentales y numéricas\n\n  ExperimentalesEnsayos mecánicos cuasi-estáticos, carga biaxial, DIC, extensometría, probetas de material compuesto y diseño de ensayos estructurales.\n  NuméricasAbaqus/FEA, mecánica no lineal, modelos de daño, pandeo y estabilidad, simulaciones micro/mesoescala.\n  MaterialesLaminados CFRP, sistemas poliméricos, nanocompuestos, estructuras ligeras y materiales seleccionados obtenidos por fabricación aditiva."
+  },
+  {
+    "objectID": "es/research.html#colaboración",
+    "href": "es/research.html#colaboración",
+    "title": "Investigación",
+    "section": "Colaboración",
+    "text": "Colaboración\nLa investigación doctoral incluyó una estancia de tres meses en Ghent University en 2019 centrada en modelado micro y mesomecánico de daño en laminados angle-ply ante cargas uniaxiales y biaxiales.\nPara propuestas de colaboración relacionadas con ensayo de materiales compuestos, modelado numérico o mecánica multiaxial, consulta la página de contacto."
+  },
+  {
+    "objectID": "es/projects.html",
+    "href": "es/projects.html",
+    "title": "Proyectos de investigación",
+    "section": "",
+    "text": "Las webs de proyecto recogen con más detalle objetivos, paquetes de trabajo, publicaciones, difusión e impacto, mientras que esta web personal funciona como puerta de entrada resumida.\nPID2022-137387OB-I00 · 2023–2026RENOREspuesta NO-lineal gobernada por la cortadura en materiales compuestos considerando cargas biaxiales y el efecto de radiación ionizanteEnsayos biaxiales, respuesta no lineal a cortadura, efectos de radiación y modelado micromecánico del daño.Web del proyecto RENO →\nSBPLY/23/180225/000114 · 2024–2027CORAEstudio de la respuesta a CORtadurA en estructuras laminares fabricadas con material compuestoCaracterización a cortadura pura, comparación con normas, desarrollo de utillaje biaxial y normalización.Web del proyecto CORA →\n\nPDC2021-121154-I00 · 2021–2024BISHEARHacia la normalización del ensayo biaxial tracción–compresión para propiedades de cortaduraProyecto Prueba de Concepto que dio lugar a la UNE 0074:2023.Web BISHEAR →"
+  },
+  {
+    "objectID": "es/news/eccm22/index.html",
+    "href": "es/news/eccm22/index.html",
+    "title": "COMES en ECCM22, Oslo",
+    "section": "",
+    "text": "Investigadores de COMES participaron en ECCM22, celebrado en Oslo en junio de 2026, presentando trabajos relacionados con ensayo biaxial, caracterización de cortadura y modelado micromecánico del daño en materiales compuestos.\n\n\n\nInvestigadores de COMES en ECCM22, Oslo.\n\n\nUna de las contribuciones se centró en el efecto de la geometría relativa de las fibras sobre la iniciación y propagación de grietas ante cargas transversales y de cortadura.\nLeer la noticia de COMES/UCLM"
+  },
+  {
+    "objectID": "es/index.html",
+    "href": "es/index.html",
+    "title": "Sergio Horta Muñoz",
+    "section": "",
+    "text": "Mecánica de medios continuos · Materiales compuestos · Mecánica experimental\n    \n    \n      Profesor Titular de Universidad en la Universidad de Castilla-La Mancha. Mi trabajo combina ensayos mecánicos avanzados y modelado mediante elementos finitos para estudiar la respuesta no lineal, el daño y el fallo de materiales compuestos ante estados de carga complejos.\n    \n    \n      Investigación\n      Publicaciones\n      Proyectos\n    \n  \n  \n    \n    Laboratorio de ensayo biaxial en el INAIA."
+  },
+  {
+    "objectID": "es/index.html#líneas-principales",
+    "href": "es/index.html#líneas-principales",
+    "title": "Sergio Horta Muñoz",
+    "section": "Líneas principales",
+    "text": "Líneas principales\n\nMi investigación abarca el flujo experimental–numérico completo: diseño e instrumentación de ensayos, caracterización multiaxial y a cortadura, medidas de campo completo y modelos de elementos finitos desde la microescala hasta el laminado.\n\n\n  Ensayos multiaxialesCaracterización biaxial y multiaxial, probetas cruciformes, cargas combinadas de tracción/compresión, diseño de ensayos y estabilidad.\n  Mecánica de materiales compuestosRespuesta no lineal y pseudo-dúctil de laminados CFRP angle-ply, comportamiento gobernado por cortadura y mecanismos de fallo.\n  Modelado numéricoElementos finitos, principalmente con Abaqus, incluyendo micromecánica, iniciación de daño, fallo progresivo y ensayo virtual."
+  },
+  {
+    "objectID": "es/index.html#del-ensayo-a-la-simulación",
+    "href": "es/index.html#del-ensayo-a-la-simulación",
+    "title": "Sergio Horta Muñoz",
+    "section": "Del ensayo a la simulación",
+    "text": "Del ensayo a la simulación\n\n  Mecánica experimentalCarga biaxial, útiles específicos y medidas de campo completo.\n  Modelado micromecánicoIniciación de daño y propagación de grietas a escala fibra–matriz.\n  Daño y falloInterpretación experimental de patrones de fallo complejos en laminados CFRP."
+  },
+  {
+    "objectID": "es/index.html#docencia",
+    "href": "es/index.html#docencia",
+    "title": "Sergio Horta Muñoz",
+    "section": "Docencia",
+    "text": "Docencia\nMi actividad docente actual se centra en Resistencia de Materiales y Mecánica del Sólido Deformable, principalmente en el Grado en Ingeniería Aeroespacial de la Escuela de Ingeniería Industrial y Aeroespacial de Toledo.\nDocencia e innovación docente →"
+  },
+  {
+    "objectID": "es/index.html#últimas-novedades",
+    "href": "es/index.html#últimas-novedades",
+    "title": "Sergio Horta Muñoz",
+    "section": "Últimas novedades",
+    "text": "Últimas novedades\nNovedades y actividades →"
+  },
+  {
+    "objectID": "es/index.html#afiliaciones",
+    "href": "es/index.html#afiliaciones",
+    "title": "Sergio Horta Muñoz",
+    "section": "Afiliaciones",
+    "text": "Afiliaciones"
+  },
+  {
+    "objectID": "es/about.html",
+    "href": "es/about.html",
+    "title": "Perfil",
+    "section": "",
+    "text": "Profesor Titular de Universidad desde marzo de 2025 en el área de Mecánica de los Medios Continuos y Teoría de Estructuras, Departamento de Mecánica Aplicada e Ingeniería de Proyectos, Universidad de Castilla-La Mancha.Imparto docencia en la Escuela de Ingeniería Industrial y Aeroespacial de Toledo (EIIA-To) y desarrollo investigación dentro del grupo COMES.ORCIDScopusWeb of ScienceLinkedIn"
+  },
+  {
+    "objectID": "es/about.html#formación",
+    "href": "es/about.html#formación",
+    "title": "Perfil",
+    "section": "Formación",
+    "text": "Formación\n2020 — Doctorado en Ciencias y Tecnologías Aplicadas a la Ingeniería Industrial, UCLMMención Internacional. Tesis: Complexity of the structural response of fibre reinforced polymer matrix composites.\n2017 — Máster en Ingeniería Industrial, UCLMPremio Extraordinario Fin de Estudios.\n2015 — Grado en Ingeniería Mecánica, UCLM"
+  },
+  {
+    "objectID": "es/about.html#perfil-investigador",
+    "href": "es/about.html#perfil-investigador",
+    "title": "Perfil",
+    "section": "Perfil investigador",
+    "text": "Perfil investigador\nMi trabajo se centra en la mecánica de medios continuos y la caracterización experimental, analítica y numérica de materiales compuestos de matriz polimérica reforzados con fibra. Las líneas principales incluyen ensayos biaxiales y multiaxiales, respuesta no lineal de laminados angle-ply, pseudo-ductilidad, caracterización a cortadura, modelos de daño y simulación por elementos finitos."
+  },
+  {
+    "objectID": "es/about.html#reconocimientos-y-transferencia",
+    "href": "es/about.html#reconocimientos-y-transferencia",
+    "title": "Perfil",
+    "section": "Reconocimientos y transferencia",
+    "text": "Reconocimientos y transferencia\n\nModelo de utilidad ES1295252_U, dispositivo antipandeo para ensayos biaxiales con probetas cruciformes.\nParticipación en el grupo de trabajo asociado a UNE 0074:2023.\n2026: Modelling Outstanding Reviewer Award.\n2018: Premio AIRBUS al Trabajo Fin de Máster.\n2017: Premio Extraordinario Fin de Estudios del Máster en Ingeniería Industrial.\n2016: Premio COGITI al Trabajo Fin de Grado."
+  },
+  {
+    "objectID": "es/about.html#perfiles-académicos",
+    "href": "es/about.html#perfiles-académicos",
+    "title": "Perfil",
+    "section": "Perfiles académicos",
+    "text": "Perfiles académicos\n\n  ORCID0000-0002-6539-7980\n  ScopusPerfil de autor\n  Web of ScienceQ-4783-2017\n  LinkedInPerfil profesional"
+  },
+  {
+    "objectID": "es/about.html#enlaces-institucionales",
+    "href": "es/about.html#enlaces-institucionales",
+    "title": "Perfil",
+    "section": "Enlaces institucionales",
+    "text": "Enlaces institucionales"
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "Sergio Horta Muñoz\nAssociate Professor · Profesor Titular de Universidad\nDepartment of Applied Mechanics and Project Engineering\nSchool of Industrial and Aerospace Engineering of Toledo\nUniversity of Castilla-La Mancha\nEmail: sergio.horta@uclm.es\nOffice: Real Fábrica de Armas, Edificio Sabatini, Toledo, Spain."
+  },
+  {
+    "objectID": "contact.html#university-of-castilla-la-mancha",
+    "href": "contact.html#university-of-castilla-la-mancha",
+    "title": "Contact",
+    "section": "",
+    "text": "Sergio Horta Muñoz\nAssociate Professor · Profesor Titular de Universidad\nDepartment of Applied Mechanics and Project Engineering\nSchool of Industrial and Aerospace Engineering of Toledo\nUniversity of Castilla-La Mancha\nEmail: sergio.horta@uclm.es\nOffice: Real Fábrica de Armas, Edificio Sabatini, Toledo, Spain."
+  },
+  {
+    "objectID": "contact.html#academic-profiles",
+    "href": "contact.html#academic-profiles",
+    "title": "Contact",
+    "section": "Academic profiles",
+    "text": "Academic profiles\n\n  ORCID0000-0002-6539-7980\n  ScopusAuthor ID 58055226700\n  Web of ScienceQ-4783-2017\n  LinkedInsergio-horta-munoz"
+  },
+  {
+    "objectID": "CHANGELOG_v0.5.html",
+    "href": "CHANGELOG_v0.5.html",
+    "title": "v0.5 fixes",
+    "section": "",
+    "text": "v0.5 fixes\n\nAll custom HTML blocks are now enclosed in explicit Pandoc/Quarto raw HTML fences ({=html}), avoiding the nested HTML being rendered as source code.\nAffiliations moved to the end of Home and renamed “Affiliations” / “Afiliaciones”.\nInstitutional logos use a responsive horizontal matrix rather than a single column.\nAcademic profile cards remain a 2×2 matrix on narrow screens.\nDamage micromechanical image now uses a white connected background.\nCARLA is hidden from the public Projects page until a funding decision is available.\nEnglish and Spanish News listings use explicit language-local globs to avoid duplicated bilingual items.\nProject links to RENO and CORA retained; CARLA source remains documented for future reactivation."
+  },
+  {
+    "objectID": "BIBLIOGRAPHY_AUDIT_2026.html",
+    "href": "BIBLIOGRAPHY_AUDIT_2026.html",
+    "title": "Bibliography audit · Scopus export 19 August 2026",
+    "section": "",
+    "text": "Bibliography audit · Scopus export 19 August 2026\nThe supplied Scopus BibTeX export was compared with the bibliography already used by the personal website.\n\nNo DOI-bearing Scopus record was missing from references.bib.\nThe raw Scopus export is preserved in data/scopus_export_2026.bib for traceability.\nOne additional Scopus-indexed ECCM 2018 conference record without DOI (pseudo-ductile flexural response) was added as a separate bibliographic item.\nNon-Scopus outputs already used by the site (UNE-related publications, MATCOMP/ECCM communications, utility models) are intentionally retained."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Profesor Titular de Universidad (since March 2025) in the area of Continuum Mechanics and Theory of Structures, Department of Applied Mechanics and Project Engineering, University of Castilla-La Mancha.\n    I teach at the School of Industrial and Aerospace Engineering of Toledo (EIIA-To) and conduct research within the COMES group.\n    \n      ORCID\n      Scopus\n      Web of Science\n      LinkedIn"
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "About",
+    "section": "Education",
+    "text": "Education\n2020 — PhD, Applied Sciences and Technologies in Industrial Engineering, UCLMInternational Mention. Thesis: Complexity of the structural response of fibre reinforced polymer matrix composites.\n2017 — Master's Degree in Industrial Engineering, UCLMExtraordinary end-of-study award.\n2015 — Bachelor's Degree in Mechanical Engineering, UCLM"
+  },
+  {
+    "objectID": "about.html#research-profile",
+    "href": "about.html#research-profile",
+    "title": "About",
+    "section": "Research profile",
+    "text": "Research profile\nMy work focuses on continuum mechanics and the experimental, analytical and numerical characterisation of fibre-reinforced polymer composites. Major themes include biaxial and multiaxial testing, non-linear response of angle-ply laminates, pseudo-ductility, shear characterisation, damage modelling and finite-element simulation."
+  },
+  {
+    "objectID": "about.html#selected-recognition-and-transfer",
+    "href": "about.html#selected-recognition-and-transfer",
+    "title": "About",
+    "section": "Selected recognition and transfer",
+    "text": "Selected recognition and transfer\n\nUtility model ES1295252_U, anti-buckling device for biaxial testing with cruciform specimens.\nContribution to the working group associated with UNE 0074:2023.\n2026: Modelling Outstanding Reviewer Award.\n2025: recognition associated with the utility model by the Spanish Patent and Trademark Office.\n2018: AIRBUS award for Master’s Final Project.\n2017: Extraordinary end-of-study award, Master’s Degree in Industrial Engineering.\n2016: COGITI award for Final Degree Project."
+  },
+  {
+    "objectID": "about.html#academic-profiles",
+    "href": "about.html#academic-profiles",
+    "title": "About",
+    "section": "Academic profiles",
+    "text": "Academic profiles\n\n  ORCID0000-0002-6539-7980\n  ScopusAuthor profile\n  Web of ScienceQ-4783-2017\n  LinkedInProfessional profile"
+  },
+  {
+    "objectID": "about.html#institutional-links",
+    "href": "about.html#institutional-links",
+    "title": "About",
+    "section": "Institutional links",
+    "text": "Institutional links"
+  },
+  {
+    "objectID": "CHANGELOG_v0.3.html",
+    "href": "CHANGELOG_v0.3.html",
+    "title": "Changes in v0.3",
+    "section": "",
+    "text": "Changes in v0.3\n\nAdded a complete alternative Spanish version under /es/, keeping English as the main site.\nNew professional visual theme: dark navigation, soft background, enhanced cards, project showcases and institutional logo strip.\nAdded linked UCLM, EIIA-To, COMES and TRAMES affiliation/transfer blocks.\nUpdated Home hero with the new Servosis biaxial testing machine.\nRebuilt Research as a visual matrix and corrected the raw fenced-div text issue.\nAdded a highlighted UNE 0074:2023 shear section, plus Iosipescu and V-notched shear methods.\nReworked Projects with photographs; removed the cryogenic project and the future-project-websites section.\nReworked Publications with higher-impact journal highlights and a full bibliography section.\nUpdated Teaching photograph, educational innovation content and supervised TFG/TFM examples.\nUpdated About and Contact academic profile links: ORCID, Scopus, Web of Science and LinkedIn.\nUpdated News with the supplied axial–torsion and ECCM22 images."
+  },
+  {
+    "objectID": "CHANGELOG_v0.6.html",
+    "href": "CHANGELOG_v0.6.html",
+    "title": "v0.6",
+    "section": "",
+    "text": "v0.6\n\nResearch cards changed to full-width images above the text for greater visual prominence.\nDamage simulation displayed on a white background using contain fitting.\nShear methods corrected and labelled with ASTM D5379/D5379M, ASTM D7078/D7078M and ASTM D3518/D3518M.\nAdded a dedicated ±45° tension method card.\nHome hero caption changed to the INAIA biaxial testing laboratory wording.\nINAIA links updated to https://uclm-inaia.github.io/ throughout the English and Spanish sites.\nSpanish Home affiliations moved to the end of the page.\nAdded GitHub Pages publication helper and guide."
+  },
+  {
+    "objectID": "data/CARLA_HIDDEN_PROJECT_BLOCKS.html",
+    "href": "data/CARLA_HIDDEN_PROJECT_BLOCKS.html",
+    "title": "CARLA hidden project blocks",
+    "section": "",
+    "text": "CARLA is intentionally hidden from the public personal website until a funding decision is available.\n\n\n&lt;section class=\"project-showcase\" id=\"carla\"&gt;&lt;div class=\"project-media\"&gt;&lt;img src=\"assets/photos/hero-servosis.jpg\" alt=\"Servosis biaxial machine\"&gt;&lt;/div&gt;&lt;div class=\"project-body\"&gt;&lt;div class=\"project-code\"&gt;2026 proposal · under evaluation&lt;/div&gt;&lt;h2&gt;CARLA&lt;/h2&gt;&lt;h3&gt;Development of new methodologies for the elastic and inelastic characterization of structural laminates&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Proposal under evaluation — not yet funded.&lt;/strong&gt; Planned research on advanced shear characterization, shear buckling, inverse full-field methods and European standardization.&lt;/p&gt;&lt;p&gt;&lt;a class=\"shm-button-outline\" href=\"https://comes-uclm.github.io/carla/\"&gt;CARLA proposal website →&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;/section&gt;\n\n\n\n&lt;section class=\"project-showcase\" id=\"carla\"&gt;&lt;div class=\"project-media\"&gt;&lt;img src=\"../assets/photos/hero-servosis.jpg\" alt=\"Máquina biaxial Servosis\"&gt;&lt;/div&gt;&lt;div class=\"project-body\"&gt;&lt;div class=\"project-code\"&gt;Propuesta 2026 · en evaluación&lt;/div&gt;&lt;h2&gt;CARLA&lt;/h2&gt;&lt;h3&gt;Desarrollo de nuevas metodologías para la CARacterización elástica e inelástica de LAminados estructurales&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Propuesta en evaluación — aún no concedida.&lt;/strong&gt; Investigación prevista sobre caracterización avanzada a cortadura, pandeo, métodos inversos de campo completo y normalización europea.&lt;/p&gt;&lt;p&gt;&lt;a class=\"shm-button-outline\" href=\"https://comes-uclm.github.io/carla/es/\"&gt;Web de la propuesta CARLA →&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;/section&gt;"
+  },
+  {
+    "objectID": "data/CARLA_HIDDEN_PROJECT_BLOCKS.html#english-block",
+    "href": "data/CARLA_HIDDEN_PROJECT_BLOCKS.html#english-block",
+    "title": "CARLA hidden project blocks",
+    "section": "",
+    "text": "&lt;section class=\"project-showcase\" id=\"carla\"&gt;&lt;div class=\"project-media\"&gt;&lt;img src=\"assets/photos/hero-servosis.jpg\" alt=\"Servosis biaxial machine\"&gt;&lt;/div&gt;&lt;div class=\"project-body\"&gt;&lt;div class=\"project-code\"&gt;2026 proposal · under evaluation&lt;/div&gt;&lt;h2&gt;CARLA&lt;/h2&gt;&lt;h3&gt;Development of new methodologies for the elastic and inelastic characterization of structural laminates&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Proposal under evaluation — not yet funded.&lt;/strong&gt; Planned research on advanced shear characterization, shear buckling, inverse full-field methods and European standardization.&lt;/p&gt;&lt;p&gt;&lt;a class=\"shm-button-outline\" href=\"https://comes-uclm.github.io/carla/\"&gt;CARLA proposal website →&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;/section&gt;"
+  },
+  {
+    "objectID": "data/CARLA_HIDDEN_PROJECT_BLOCKS.html#spanish-block",
+    "href": "data/CARLA_HIDDEN_PROJECT_BLOCKS.html#spanish-block",
+    "title": "CARLA hidden project blocks",
+    "section": "",
+    "text": "&lt;section class=\"project-showcase\" id=\"carla\"&gt;&lt;div class=\"project-media\"&gt;&lt;img src=\"../assets/photos/hero-servosis.jpg\" alt=\"Máquina biaxial Servosis\"&gt;&lt;/div&gt;&lt;div class=\"project-body\"&gt;&lt;div class=\"project-code\"&gt;Propuesta 2026 · en evaluación&lt;/div&gt;&lt;h2&gt;CARLA&lt;/h2&gt;&lt;h3&gt;Desarrollo de nuevas metodologías para la CARacterización elástica e inelástica de LAminados estructurales&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Propuesta en evaluación — aún no concedida.&lt;/strong&gt; Investigación prevista sobre caracterización avanzada a cortadura, pandeo, métodos inversos de campo completo y normalización europea.&lt;/p&gt;&lt;p&gt;&lt;a class=\"shm-button-outline\" href=\"https://comes-uclm.github.io/carla/es/\"&gt;Web de la propuesta CARLA →&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;/section&gt;"
+  },
+  {
+    "objectID": "es/contact.html",
+    "href": "es/contact.html",
+    "title": "Contacto",
+    "section": "",
+    "text": "Sergio Horta Muñoz\nProfesor Titular de Universidad\nDepartamento de Mecánica Aplicada e Ingeniería de Proyectos\nEscuela de Ingeniería Industrial y Aeroespacial de Toledo\nUniversidad de Castilla-La Mancha\nCorreo electrónico: sergio.horta@uclm.es\nDespacho: Real Fábrica de Armas, Edificio Sabatini, Toledo."
+  },
+  {
+    "objectID": "es/contact.html#universidad-de-castilla-la-mancha",
+    "href": "es/contact.html#universidad-de-castilla-la-mancha",
+    "title": "Contacto",
+    "section": "",
+    "text": "Sergio Horta Muñoz\nProfesor Titular de Universidad\nDepartamento de Mecánica Aplicada e Ingeniería de Proyectos\nEscuela de Ingeniería Industrial y Aeroespacial de Toledo\nUniversidad de Castilla-La Mancha\nCorreo electrónico: sergio.horta@uclm.es\nDespacho: Real Fábrica de Armas, Edificio Sabatini, Toledo."
+  },
+  {
+    "objectID": "es/contact.html#perfiles-académicos",
+    "href": "es/contact.html#perfiles-académicos",
+    "title": "Contacto",
+    "section": "Perfiles académicos",
+    "text": "Perfiles académicos\n\n  ORCID0000-0002-6539-7980\n  ScopusAuthor ID 58055226700\n  Web of ScienceQ-4783-2017\n  LinkedInsergio-horta-munoz"
+  },
+  {
+    "objectID": "es/news/2026-07-13-axial-torsion/index.html",
+    "href": "es/news/2026-07-13-axial-torsion/index.html",
+    "title": "Nuevo equipamiento para ensayos axil–torsión en la EIIA-To",
+    "section": "",
+    "text": "Las capacidades experimentales disponibles en la EIIA-To se han ampliado con equipamiento para realizar ensayos combinados axil–torsión. El sistema complementa los métodos multiaxiales y de medida de campo completo utilizados en la caracterización de materiales compuestos y otros materiales estructurales.\n\n\n\nEquipamiento de ensayos axil–torsión en la EIIA-To.\n\n\nLeer la noticia de la UCLM"
+  },
+  {
+    "objectID": "es/news.html",
+    "href": "es/news.html",
+    "title": "Novedades",
+    "section": "",
+    "text": "Noticias breves sobre investigación, equipamiento, congresos, divulgación y actividades docentes, enlazando siempre que sea posible a la fuente institucional o del proyecto.\n\n\n\n\n\n\n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nNuevo equipamiento para ensayos axil–torsión en la EIIA-To\n\n\n\nInfraestructura\n\nMecánica experimental\n\nCOMES\n\n\n\nNueva capacidad experimental en la EIIA-To para aplicar cargas mecánicas combinadas axiales y torsionales.\n\n\n\n13 jul 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nCOMES en ECCM22, Oslo\n\n\n\nCongreso\n\nMateriales compuestos\n\nCOMES\n\nRENO\n\nCORA\n\n\n\nContribuciones de COMES sobre ensayo biaxial y modelado micromecánico en el 22nd European Conference on Composite Materials.\n\n\n\n25 jun 2026\n\n\n\n\n\n\nNo hay resultados"
+  },
+  {
+    "objectID": "es/publications.html",
+    "href": "es/publications.html",
+    "title": "Publicaciones",
+    "section": "",
+    "text": "2026Comparison of the in-plane shear response of a FRP obtained by biaxial tension-compression test and standard methods.Composites Science and Technology 276, 111519. DOI\n  2024Experimental evaluation of the use of cruciform specimens for biaxial stability analysis.Composites Part B: Engineering 286, 111764. Ensayo biaxial compresión–compresión y estabilidad. DOI\n  2023Tension–compression biaxial test with ±45° symmetric angle-ply laminates for determining the pure shear response in principal material directions of a lamina.Composites Part B: Engineering 261, 110792. DOI\n  2022Pseudo-ductile effects in ±45° angle-ply CFRP laminates under uniaxial loading: compression and cyclic tensile test.Composites Part B: Engineering 233, 109631. DOI\n  2020Mechanical response of ±45° angle-ply CFRP plates under low-velocity impact and quasi-static indentation: influence of the multidirectional strain state.Composites Science and Technology 194, 108145. DOI\n  2018Pseudo-ductility in flexural testing of symmetric ±45° angle-ply CFRP laminates.Composites Science and Technology 156, 8–18. DOI"
+  },
+  {
+    "objectID": "es/publications.html#trabajos-recientes-y-destacados",
+    "href": "es/publications.html#trabajos-recientes-y-destacados",
+    "title": "Publicaciones",
+    "section": "",
+    "text": "2026Comparison of the in-plane shear response of a FRP obtained by biaxial tension-compression test and standard methods.Composites Science and Technology 276, 111519. DOI\n  2024Experimental evaluation of the use of cruciform specimens for biaxial stability analysis.Composites Part B: Engineering 286, 111764. Ensayo biaxial compresión–compresión y estabilidad. DOI\n  2023Tension–compression biaxial test with ±45° symmetric angle-ply laminates for determining the pure shear response in principal material directions of a lamina.Composites Part B: Engineering 261, 110792. DOI\n  2022Pseudo-ductile effects in ±45° angle-ply CFRP laminates under uniaxial loading: compression and cyclic tensile test.Composites Part B: Engineering 233, 109631. DOI\n  2020Mechanical response of ±45° angle-ply CFRP plates under low-velocity impact and quasi-static indentation: influence of the multidirectional strain state.Composites Science and Technology 194, 108145. DOI\n  2018Pseudo-ductility in flexural testing of symmetric ±45° angle-ply CFRP laminates.Composites Science and Technology 156, 8–18. DOI"
+  },
+  {
+    "objectID": "es/publications.html#comunicación-reciente-en-congreso",
+    "href": "es/publications.html#comunicación-reciente-en-congreso",
+    "title": "Publicaciones",
+    "section": "Comunicación reciente en congreso",
+    "text": "Comunicación reciente en congreso\nEffect of Relative Fiber Angles and Distances in Microscale Modelling of Crack Initiation and Propagation under Transverse and Shear Loading.\nComunicación oral presentada en ECCM22 — 22nd European Conference on Composite Materials, Oslo, 2026."
+  },
+  {
+    "objectID": "es/publications.html#líneas-principales",
+    "href": "es/publications.html#líneas-principales",
+    "title": "Publicaciones",
+    "section": "Líneas principales",
+    "text": "Líneas principales\n\n  Ensayo biaxial y cortaduraProbetas cruciformes, ensayos tracción–compresión y compresión–compresión, caracterización de cortadura, estabilidad y normalización.\n  No linealidad y dañoPseudo-ductilidad, laminados angle-ply, carga cíclica, impacto y evolución progresiva de la rigidez.\n  Mecánica computacionalMicromecánica, modelos de daño, optimización piezoeléctrica y otras aplicaciones de elementos finitos."
+  },
+  {
+    "objectID": "es/publications.html#listado-completo-de-publicaciones",
+    "href": "es/publications.html#listado-completo-de-publicaciones",
+    "title": "Publicaciones",
+    "section": "Listado completo de publicaciones",
+    "text": "Listado completo de publicaciones\n\n\nEscrig, S., C. Rappold, J. Bernabeu, et al. 2024. «First test of energy response of the micro-vertex detection system for the WASA-FRS Experiments». Nuclear Instruments and Methods in Physics Research Section A 1064: 169392. https://doi.org/10.1016/j.nima.2024.169392.\n\n\nHorta Muñoz, S., y D. Ruiz. 2023. «Optimization of the Polarization Profile of Conical-Shaped Shells Piezoelectric Sensors». Sensors 23 (1): 442. https://doi.org/10.3390/s23010442.\n\n\nHorta Muñoz, S., y M. C. Serna Moreno. 2018. «Numerical modelling of the pseudo-ductility effect in ±45° angle-ply laminates under biaxial loading». 18th European Conference on Composite Materials (ECCM18) (Athens, Greece).\n\n\nHorta Muñoz, S., y M. C. Serna Moreno. 2020a. «Ensayos biaxiales sobre probetas cruciformes de laminados CFRP ante presencia de cargas de compresión». Materiales Compuestos 4 (4): 77-83.\n\n\nHorta Muñoz, S., y M. C. Serna Moreno. 2020b. «Multiaxial stress and strain analysis on laminated plates under different flexural loading rates». IOP Conference Series: Materials Science and Engineering 942 (1): 012022. https://doi.org/10.1088/1757-899X/942/1/012022.\n\n\nHorta Muñoz, S., y M. C. Serna Moreno. 2021. «Estudio de la respuesta no lineal ante diferentes estados de carga multiaxiales en laminados de matriz polimérica reforzados con fibra». Materiales Compuestos 5 (4): 25-30.\n\n\nHorta Muñoz, S., y M. C. Serna Moreno. 2022. «Advances in Cruciform Biaxial Testing of Fibre-Reinforced Polymers». Polymers 14 (4): 686. https://doi.org/10.3390/polym14040686.\n\n\nHorta Muñoz, S., y M. C. Serna Moreno. 2023. «Tension–compression biaxial test with \\(\\pm45^{\\circ}\\) symmetric angle-ply laminates for determining the pure shear response in principal material directions of a lamina». Composites Part B: Engineering 261: 110792. https://doi.org/10.1016/j.compositesb.2023.110792.\n\n\nHorta Muñoz, S., y M. C. Serna Moreno. 2024a. «Análisis del estado tensión-deformación de cortadura pura obtenido mediante el ensayo biaxial tracción-compresión». Materiales Compuestos 8 (3).\n\n\nHorta Muñoz, S., y M. C. Serna Moreno. 2024b. «Enhanced pure shear characterization of FRP using tension-compression testing methodology on cruciform specimens». 21st European Conference on Composite Materials (ECCM21) (Nantes, France).\n\n\nHorta Muñoz, S., y M. C. Serna Moreno. 2026. «Effect of Relative Fiber Angles and Distances in Microscale Modelling of Crack Initiation and Propagation under Transverse and Shear Loading». Revista de Materiales Compuestos. https://www.scipedia.com/public/Horta_Munoz_Serna_Moreno_2025a.\n\n\nHorta Muñoz, S., M. C. Serna Moreno, D. Garoz, R. D. B. Sevenois, y W. Van Paepegem. 2023. «Micromechanical modeling of the non-linear behaviour of angle-ply laminates under different plane-stress states». Materiales Compuestos 7 (3).\n\n\nHorta Muñoz, S., M. C. Serna Moreno, J. M. González Domínguez, P. A. Morales Rodríguez, J. L. Martínez Vicente, y E. Vázquez Fernández-Pacheco. 2018. «Fabricación y caracterización de materiales compuestos reforzados con óxido de grafeno». Materiales Compuestos 2 (4): 22-25.\n\n\nHorta Muñoz, S., M. C. Serna Moreno, J. M. González-Domínguez, P. A. Morales-Rodríguez, y E. Vázquez. 2019. «Experimental, numerical, and analytical study on the effect of graphene oxide in the mechanical properties of a solvent-free reinforced epoxy resin». Polymers 11 (12): 2115. https://doi.org/10.3390/polym11122115.\n\n\nLópez Cela, J. J., M. C. Serna Moreno, S. Horta Muñoz, y J. L. Martínez Vicente. 2025. «Biaxial behaviour of composite materials». En Advances on composite materials and solid mechanics.\n\n\nMartín-Nieto, M., D. Castaño, S. Horta Muñoz, y D. Ruiz. 2024a. «Simplification of Electrode Profiles for Piezoelectric Modal Sensors by Controlling Gap-Phase Length». Mathematics 12 (10): 1525. https://doi.org/10.3390/math12101525.\n\n\nMartín-Nieto, M., D. Castaño, S. Horta Muñoz, y D. Ruiz. 2024b. «Solving Mazes: A New Approach Based on Spectral Graph Theory». Mathematics 12 (15): 2305. https://doi.org/10.3390/math12152305.\n\n\nRelimpio, David, M. C. Serna Moreno, S. Horta Muñoz, et al. 2024. «Improved stability and specificity of baits for oral administration of substances to wild boar». Preventive Veterinary Medicine 229: 106241. https://doi.org/10.1016/j.prevetmed.2024.106241.\n\n\nRodrigo-Carranza, Víctor, Wouter Hoogkamer, J. M. González-Ravé, et al. 2024. «Influence of different midsole foam in advanced footwear technology use on running economy and biomechanics in trained runners». Scandinavian Journal of Medicine and Science in Sports 34 (1). https://doi.org/10.1111/sms.14526.\n\n\nRuiz, D., y S. Horta Muñoz. 2021. «Optimal design of electrode polarization in piezoelectric unimorph beams to induce traveling waves». Applied Mathematical Modelling 99: 1-13. https://doi.org/10.1016/j.apm.2021.06.007.\n\n\nRuiz, D., S. Horta Muñoz, y R. García-Contreras. 2022. «Simultaneous Design of the Host Structure and the Polarisation Profile of Piezoelectric Sensors Applied to Cylindrical Shell Structures». Mathematics 10 (15): 2753. https://doi.org/10.3390/math10152753.\n\n\nSánchez Romero, A., A. Romero Gutiérrez, y S. Horta Muñoz. 2025. «Procesamiento y caracterización de estructuras ligeras tipo sándwich (FC-Nómex)». Material-ES 9 (1): 1-4.\n\n\nSanz-Herrera, J. A., M. C. Serna Moreno, S. Horta Muñoz, y R. Chamorro Moreno. 2026. «Full-field elastic solution reconstruction of mechanical tests using a physics-based inverse method». Composite Structures 387: 120278. https://doi.org/10.1016/j.compstruct.2026.120278.\n\n\nSerna Moreno, M. C., y S. Horta Muñoz. 2020a. «Elastic stability in biaxial testing with cruciform specimens subjected to compressive loading». Composite Structures 234: 111697. https://doi.org/10.1016/j.compstruct.2019.111697.\n\n\nSerna Moreno, M. C., y S. Horta Muñoz. 2020b. «Mechanical response of \\(\\pm45^{\\circ}\\) angle-ply CFRP plates under low-velocity impact and quasi-static indentation: influence of the multidirectional strain state». Composites Science and Technology 194: 108145. https://doi.org/10.1016/j.compscitech.2020.108145.\n\n\nSerna Moreno, M. C., y S. Horta Muñoz. 2022a. «Dispositivo antipandeo para ensayos biaxiales con probetas cruciformes». Materiales Compuestos 5 (2): 131-36.\n\n\nSerna Moreno, M. C., y S. Horta Muñoz. 2022b. «Pseudo-ductile effects in \\(\\pm45^{\\circ}\\) angle-ply CFRP laminates under uniaxial loading: Compression and cyclic tensile test». Composites Part B: Engineering 233: 109631. https://doi.org/10.1016/j.compositesb.2022.109631.\n\n\nSerna Moreno, M. C., y S. Horta Muñoz. 2022c. «Pseudo-ductilidad en laminados ±45º ante cargas de tracción y de compresión». Materiales Compuestos 7 (4): 176. https://doi.org/10.23967/r.matcomp.2022.10.006.\n\n\nSerna Moreno, M. C., y S. Horta Muñoz. 2022d. «Surface energy in impact testing of unnotched specimens: Influence of carbon nano-fillers in epoxy matrix». Composite Structures 279: 113928. https://doi.org/10.1016/j.compstruct.2021.113928.\n\n\nSerna Moreno, M. C., y S. Horta Muñoz. 2024. «Experimental evaluation of the use of cruciform specimens for biaxial stability analysis». Composites Part B: Engineering 286: 111764. https://doi.org/10.1016/j.compositesb.2024.111764.\n\n\nSerna Moreno, M. C., y S. Horta Muñoz. 2026. «Buckling analysis of laminates subjected to biaxial loads using cruciform specimens». Revista de Materiales Compuestos 9 (3). https://www.scipedia.com/profile/sergio.horta/contributions.\n\n\nSerna Moreno, M. C., S. Horta Muñoz, y J. García Delgado. 2026. «Comparison of the in-plane shear response of a FRP obtained by biaxial tension–compression test and standard methods». Composites Science and Technology 276: 111519. https://doi.org/10.1016/j.compscitech.2026.111519.\n\n\nSerna Moreno, M. C., S. Horta Muñoz, y J. J. López Cela. 2025. «Recommended methodology in Specification UNE 0074:2023 to determine shear properties by means of the biaxial tension–compression test with a cruciform specimen». Revista de Materiales Compuestos 8 (7). https://doi.org/10.23967/r.matcomp.2025.07.03.\n\n\nSerna Moreno, M. C., S. Horta Muñoz, A. Romero Gutiérrez, et al. 2018. «Pseudo-ductility in flexural testing of symmetric \\(\\pm45^{\\circ}\\) angle-ply CFRP laminates». Composites Science and Technology 156: 8-18. https://doi.org/10.1016/j.compscitech.2017.12.015.\n\n\nSerna Moreno, M. C., S. Horta Muñoz, A. Romero Gutiérrez, et al. 2020. «Pseudo-ductile response of ±45° CFRP submitted to flexural loading». ECCM 2018 – 18th European Conference on Composite Materials.\n\n\nSerna Moreno, M. C., S. Horta Muñoz, y A. Ruiz Gracia. 2022. «Design of Triaxial Tests with Polymer Matrix Composites». Polymers 14 (4): 837. https://doi.org/10.3390/polym14040837.\n\n\nSerna Moreno, M. C., A. Romero Gutiérrez, J. L. Martínez Vicente, S. Horta Muñoz, P. A. Morales Rodríguez, y C. Rappold. 2018. «Flexión en materiales compuestos con distinta respuesta a tracción y a compresión». Materiales Compuestos 2 (4): 1-4."
+  },
+  {
+    "objectID": "es/teaching.html",
+    "href": "es/teaching.html",
+    "title": "Docencia",
+    "section": "",
+    "text": "Mi actividad docente principal se desarrolla en la Escuela de Ingeniería Industrial y Aeroespacial de Toledo (EIIA-To), Universidad de Castilla-La Mancha."
+  },
+  {
+    "objectID": "es/teaching.html#resistencia-de-materiales",
+    "href": "es/teaching.html#resistencia-de-materiales",
+    "title": "Docencia",
+    "section": "Resistencia de Materiales",
+    "text": "Resistencia de Materiales\nAsignatura de segundo curso del Grado en Ingeniería Aeroespacial y, cuando corresponde, de los Grados en Ingeniería Eléctrica e Ingeniería Electrónica Industrial y Automática.\nLos contenidos incluyen tensiones y deformaciones, esfuerzo axil, torsión, flexión, tensiones tangenciales, deformación de vigas y análisis estructural básico."
+  },
+  {
+    "objectID": "es/teaching.html#mecánica-del-sólido-deformable",
+    "href": "es/teaching.html#mecánica-del-sólido-deformable",
+    "title": "Docencia",
+    "section": "Mecánica del Sólido Deformable",
+    "text": "Mecánica del Sólido Deformable\nAsignatura de segundo curso del Grado en Ingeniería Aeroespacial, centrada en conceptos de mecánica de medios continuos y sólidos deformables con componentes analíticas, experimentales y numéricas.\nEntre los desarrollos docentes actuales se incluye el uso práctico de Abaqus, demostraciones experimentales y actividades que conectan los modelos teóricos con la respuesta estructural medida."
+  },
+  {
+    "objectID": "es/teaching.html#innovación-docente",
+    "href": "es/teaching.html#innovación-docente",
+    "title": "Docencia",
+    "section": "Innovación docente",
+    "text": "Innovación docente\nProyectos seleccionados:\n\nPÍXEL — PÍldoras eXperimentales para la Enseñanza de ingeniería en el auLa (2025–2027), proyecto de innovación docente UCLM.\nFORMATING — Fortaleciendo las competencias en métodos matemáticos mediante software MATLAB en Ingeniería (2023–2025), IP."
+  },
+  {
+    "objectID": "es/teaching.html#trabajos-fin-de-grado-y-máster",
+    "href": "es/teaching.html#trabajos-fin-de-grado-y-máster",
+    "title": "Docencia",
+    "section": "Trabajos Fin de Grado y Máster",
+    "text": "Trabajos Fin de Grado y Máster\nLa dirección y codirección se concentra principalmente en cuatro líneas recurrentes:\n\n  Materiales compuestosFabricación, caracterización multiaxial/a cortadura, daño, irradiación y ensayos avanzados de CFRP.\n  Mecánica numéricaElementos finitos, iniciación y propagación de grietas, micromecánica y modelos de daño.\n  Estructuras ligerasEstructuras sándwich, optimización estructural y validación experimental.\n\nAlgunos trabajos dirigidos o codirigidos:\n\nAyman Berrem Khalid (2025): mejora del diseño y fabricación de un dispositivo para ensayos biaxiales — uno de los TFG codirigidos posteriormente reconocido con un premio.\nCésar Cano García (2025): radiación ionizante en materiales compuestos.\nClaudia Llario Alegre (2024): diseño de un dispositivo para ensayos biaxiales tracción–compresión en máquina uniaxial — calificación 10/10 y mención de calidad.\nAbraham Sánchez Romero (2023): procesado y caracterización mecánica de estructuras sándwich CFRP–Nomex — TFG codirigido con reconocimiento posterior.\nVicente Arévalo Madrid (2022): modelado micromecánico de materiales compuestos unidireccionales — 10/10, mención de calidad y reconocimiento posterior.\nOtros trabajos abarcan optimización topológica, fabricación aditiva, ensayos de cortadura pura, medida de grietas mediante imagen y diseño de prácticas estructurales."
+  },
+  {
+    "objectID": "GUIA_PASO_A_PASO_ES.html",
+    "href": "GUIA_PASO_A_PASO_ES.html",
+    "title": "Guía paso a paso — web personal v0.3",
+    "section": "",
+    "text": "Descomprime sergio_horta_web_quarto_v0.3.zip en una carpeta estable, por ejemplo:\nDocumentos/web-sergio/\nNo trabajes directamente dentro del ZIP.\n\n\n\nEn Windows, haz doble clic en:\nPREVIEW_WINDOWS.bat\nEl archivo ejecutará primero quarto check y después quarto preview.\nSi prefieres hacerlo desde PowerShell o una terminal:\nquarto check\nquarto preview\nSe abrirá una dirección local parecida a:\nhttp://localhost:xxxx/\nLa web sigue sin estar publicada en Internet.\n\n\n\nLa versión principal es la inglesa.\nEn la barra superior aparece un botón ES. Púlsalo para abrir la versión española. En las páginas españolas el botón cambia a EN.\nRevisa especialmente:\n\nHome / Inicio.\nResearch / Investigación.\nProjects / Proyectos.\nPublications / Publicaciones.\nTeaching / Docencia.\nNews / Novedades.\nAbout / Perfil.\nContact / Contacto.\n\n\n\n\nEsta versión incorpora:\n\nnueva fotografía principal de la máquina biaxial Servosis;\nbloque de logos UCLM, EIIA-To, COMES y TRAMES con enlaces;\ninvestigación presentada mediante bloques visuales;\nsección específica de cortadura, destacando el ensayo asociado a UNE 0074:2023;\nfotografías de Iosipescu y V-notched shear;\nproyectos con imágenes;\nnueva selección de publicaciones destacadas;\nactualización de perfiles académicos;\nnuevas imágenes en noticias;\nversión alternativa completa en español.\n\n\n\n\nAbre cualquier .qmd con Visual Studio Code, Notepad++ o Bloc de notas.\nEjemplo:\nresearch.qmd\nGuarda el archivo. Si quarto preview sigue ejecutándose, el navegador debería actualizarse automáticamente.\n\n\n\nLos archivos equivalentes están dentro de:\nes/\nPor ejemplo:\n\ninglés: research.qmd\nespañol: es/research.qmd\n\n\n\n\nLas imágenes utilizadas están en:\nassets/photos/\nLos logos están en:\nassets/logos/\nNo es necesario tocar styles.css para cambiar una fotografía: basta con sustituir el archivo o cambiar su ruta en el .qmd.\n\n\n\nLos trabajos destacados se editan manualmente en:\npublications.qmd\ny\nes/publications.qmd\nEl listado bibliográfico completo se genera a partir de:\nreferences.bib\n\n\n\nCada noticia está en su propia carpeta:\nnews/...\nLa versión española equivalente está en:\nes/news/...\nLas páginas news.qmd generan automáticamente las tarjetas.\n\n\n\nEn Windows:\nRENDER_WINDOWS.bat\no desde terminal:\nquarto render\nEl resultado final se genera en _site/.\n\n\n\nCópia y pégame el texto completo de la terminal. No hace falta intentar corregirlo a mano.\n\n\n\nTodavía podemos seguir afinando diseño y contenido en local. Cuando demos esta fase por buena, el siguiente paso será publicar la web principal en GitHub Pages y después reutilizar la misma identidad gráfica para las webs de RENO y CORA."
+  },
+  {
+    "objectID": "GUIA_PASO_A_PASO_ES.html#descomprime-el-zip",
+    "href": "GUIA_PASO_A_PASO_ES.html#descomprime-el-zip",
+    "title": "Guía paso a paso — web personal v0.3",
+    "section": "",
+    "text": "Descomprime sergio_horta_web_quarto_v0.3.zip en una carpeta estable, por ejemplo:\nDocumentos/web-sergio/\nNo trabajes directamente dentro del ZIP."
+  },
+  {
+    "objectID": "GUIA_PASO_A_PASO_ES.html#abre-la-web-en-local",
+    "href": "GUIA_PASO_A_PASO_ES.html#abre-la-web-en-local",
+    "title": "Guía paso a paso — web personal v0.3",
+    "section": "",
+    "text": "En Windows, haz doble clic en:\nPREVIEW_WINDOWS.bat\nEl archivo ejecutará primero quarto check y después quarto preview.\nSi prefieres hacerlo desde PowerShell o una terminal:\nquarto check\nquarto preview\nSe abrirá una dirección local parecida a:\nhttp://localhost:xxxx/\nLa web sigue sin estar publicada en Internet."
+  },
+  {
+    "objectID": "GUIA_PASO_A_PASO_ES.html#comprueba-las-dos-versiones",
+    "href": "GUIA_PASO_A_PASO_ES.html#comprueba-las-dos-versiones",
+    "title": "Guía paso a paso — web personal v0.3",
+    "section": "",
+    "text": "La versión principal es la inglesa.\nEn la barra superior aparece un botón ES. Púlsalo para abrir la versión española. En las páginas españolas el botón cambia a EN.\nRevisa especialmente:\n\nHome / Inicio.\nResearch / Investigación.\nProjects / Proyectos.\nPublications / Publicaciones.\nTeaching / Docencia.\nNews / Novedades.\nAbout / Perfil.\nContact / Contacto."
+  },
+  {
+    "objectID": "GUIA_PASO_A_PASO_ES.html#comprueba-el-nuevo-diseño",
+    "href": "GUIA_PASO_A_PASO_ES.html#comprueba-el-nuevo-diseño",
+    "title": "Guía paso a paso — web personal v0.3",
+    "section": "",
+    "text": "Esta versión incorpora:\n\nnueva fotografía principal de la máquina biaxial Servosis;\nbloque de logos UCLM, EIIA-To, COMES y TRAMES con enlaces;\ninvestigación presentada mediante bloques visuales;\nsección específica de cortadura, destacando el ensayo asociado a UNE 0074:2023;\nfotografías de Iosipescu y V-notched shear;\nproyectos con imágenes;\nnueva selección de publicaciones destacadas;\nactualización de perfiles académicos;\nnuevas imágenes en noticias;\nversión alternativa completa en español."
+  },
+  {
+    "objectID": "GUIA_PASO_A_PASO_ES.html#editar-texto",
+    "href": "GUIA_PASO_A_PASO_ES.html#editar-texto",
+    "title": "Guía paso a paso — web personal v0.3",
+    "section": "",
+    "text": "Abre cualquier .qmd con Visual Studio Code, Notepad++ o Bloc de notas.\nEjemplo:\nresearch.qmd\nGuarda el archivo. Si quarto preview sigue ejecutándose, el navegador debería actualizarse automáticamente."
+  },
+  {
+    "objectID": "GUIA_PASO_A_PASO_ES.html#editar-la-versión-española",
+    "href": "GUIA_PASO_A_PASO_ES.html#editar-la-versión-española",
+    "title": "Guía paso a paso — web personal v0.3",
+    "section": "",
+    "text": "Los archivos equivalentes están dentro de:\nes/\nPor ejemplo:\n\ninglés: research.qmd\nespañol: es/research.qmd"
+  },
+  {
+    "objectID": "GUIA_PASO_A_PASO_ES.html#fotografías-y-logos",
+    "href": "GUIA_PASO_A_PASO_ES.html#fotografías-y-logos",
+    "title": "Guía paso a paso — web personal v0.3",
+    "section": "",
+    "text": "Las imágenes utilizadas están en:\nassets/photos/\nLos logos están en:\nassets/logos/\nNo es necesario tocar styles.css para cambiar una fotografía: basta con sustituir el archivo o cambiar su ruta en el .qmd."
+  },
+  {
+    "objectID": "GUIA_PASO_A_PASO_ES.html#publicaciones",
+    "href": "GUIA_PASO_A_PASO_ES.html#publicaciones",
+    "title": "Guía paso a paso — web personal v0.3",
+    "section": "",
+    "text": "Los trabajos destacados se editan manualmente en:\npublications.qmd\ny\nes/publications.qmd\nEl listado bibliográfico completo se genera a partir de:\nreferences.bib"
+  },
+  {
+    "objectID": "GUIA_PASO_A_PASO_ES.html#noticias",
+    "href": "GUIA_PASO_A_PASO_ES.html#noticias",
+    "title": "Guía paso a paso — web personal v0.3",
+    "section": "",
+    "text": "Cada noticia está en su propia carpeta:\nnews/...\nLa versión española equivalente está en:\nes/news/...\nLas páginas news.qmd generan automáticamente las tarjetas."
+  },
+  {
+    "objectID": "GUIA_PASO_A_PASO_ES.html#generar-la-web-completa",
+    "href": "GUIA_PASO_A_PASO_ES.html#generar-la-web-completa",
+    "title": "Guía paso a paso — web personal v0.3",
+    "section": "",
+    "text": "En Windows:\nRENDER_WINDOWS.bat\no desde terminal:\nquarto render\nEl resultado final se genera en _site/."
+  },
+  {
+    "objectID": "GUIA_PASO_A_PASO_ES.html#si-aparece-un-error",
+    "href": "GUIA_PASO_A_PASO_ES.html#si-aparece-un-error",
+    "title": "Guía paso a paso — web personal v0.3",
+    "section": "",
+    "text": "Cópia y pégame el texto completo de la terminal. No hace falta intentar corregirlo a mano."
+  },
+  {
+    "objectID": "GUIA_PASO_A_PASO_ES.html#github",
+    "href": "GUIA_PASO_A_PASO_ES.html#github",
+    "title": "Guía paso a paso — web personal v0.3",
+    "section": "",
+    "text": "Todavía podemos seguir afinando diseño y contenido en local. Cuando demos esta fase por buena, el siguiente paso será publicar la web principal en GitHub Pages y después reutilizar la misma identidad gráfica para las webs de RENO y CORA."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Sergio Horta Muñoz",
+    "section": "",
+    "text": "Continuum mechanics · Composite materials · Experimental mechanics\n    \n    \n      Associate Professor (Profesor Titular de Universidad) at the University of Castilla-La Mancha. My work combines advanced mechanical testing and finite-element modelling to understand the non-linear response, damage and failure of composite materials under complex loading states.\n    \n    \n      Research\n      Publications\n      Current projects\n    \n  \n  \n    \n    Biaxial testing laboratory at INAIA."
+  },
+  {
+    "objectID": "index.html#research-focus",
+    "href": "index.html#research-focus",
+    "title": "Sergio Horta Muñoz",
+    "section": "Research focus",
+    "text": "Research focus\n\nMy research spans the complete experimental–numerical workflow: test design and instrumentation, multiaxial and shear characterisation, full-field measurements, and finite-element models from the microscale to the laminate level.\n\n\n  Multiaxial testingBiaxial and multiaxial characterisation, cruciform specimens, combined tension/compression loading, test design and stability.\n  Composite mechanicsNon-linear and pseudo-ductile response of angle-ply CFRP laminates, shear-dominated behaviour and failure mechanisms.\n  Numerical modellingFinite Element Analysis, mainly with Abaqus, including micromechanics, damage initiation, progressive failure and virtual testing."
+  },
+  {
+    "objectID": "index.html#from-experiment-to-simulation",
+    "href": "index.html#from-experiment-to-simulation",
+    "title": "Sergio Horta Muñoz",
+    "section": "From experiment to simulation",
+    "text": "From experiment to simulation\n\n  \n    \n    Experimental mechanicsBiaxial loading, custom fixtures and full-field measurements.\n  \n  \n    \n    Micromechanical modellingDamage initiation and crack propagation at fibre–matrix scale.\n  \n  \n    \n    Damage & failureExperimental interpretation of complex failure patterns in CFRP laminates."
+  },
+  {
+    "objectID": "index.html#teaching",
+    "href": "index.html#teaching",
+    "title": "Sergio Horta Muñoz",
+    "section": "Teaching",
+    "text": "Teaching\nMy current teaching activity is centred on Resistencia de Materiales and Mecánica del Sólido Deformable, particularly in the Bachelor’s Degree in Aerospace Engineering at the School of Industrial and Aerospace Engineering of Toledo (UCLM).\nTeaching and educational innovation →"
+  },
+  {
+    "objectID": "index.html#latest-updates",
+    "href": "index.html#latest-updates",
+    "title": "Sergio Horta Muñoz",
+    "section": "Latest updates",
+    "text": "Latest updates\nNews and activities →"
+  },
+  {
+    "objectID": "index.html#affiliations",
+    "href": "index.html#affiliations",
+    "title": "Sergio Horta Muñoz",
+    "section": "Affiliations",
+    "text": "Affiliations"
+  },
+  {
+    "objectID": "news/eccm22/index.html",
+    "href": "news/eccm22/index.html",
+    "title": "COMES at ECCM22 in Oslo",
+    "section": "",
+    "text": "Researchers from COMES participated in ECCM22, held in Oslo in June 2026, presenting work on biaxial testing, shear characterisation and micromechanical modelling of damage in composite materials.\n\n\n\nCOMES researchers at ECCM22 in Oslo.\n\n\nOne of the contributions focused on the effect of relative fibre geometry on crack initiation and propagation under transverse and shear loading.\nRead the COMES/UCLM news item"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Research projects",
+    "section": "",
+    "text": "The project websites provide the detailed layer of objectives, work packages, publications, dissemination and impact, while this personal site acts as a concise gateway.\nPID2022-137387OB-I00 · 2023–2026RENOShear-driven NOn-linear REsponse of composites considering biaxial loads and ionizing radiation effectsBiaxial testing, non-linear shear response, radiation effects and micromechanical damage modelling.RENO project website →\nSBPLY/23/180225/000114 · 2024–2027CORAStudy of the shear response in laminated structures made of composite materialPure-shear characterization, comparison with standards, biaxial fixture development and standardization.CORA project website →\n\nPDC2021-121154-I00 · 2021–2024BISHEARTowards standardization of the biaxial tension–compression shear testProof-of-concept project that led to UNE 0074:2023.BISHEAR website →"
+  },
+  {
+    "objectID": "PUBLICATION_SELECTION_NOTES.html",
+    "href": "PUBLICATION_SELECTION_NOTES.html",
+    "title": "Publication notes · v0.3",
+    "section": "",
+    "text": "Publication notes · v0.3\nThe website now uses two layers:\n\npublications.qmd / es/publications.qmd manually highlight a short selection of high-impact or particularly representative journal papers, plus the 2026 ECCM22 microscale communication.\nreferences.bib contains a broader research-publication list assembled from the two supplied BibTeX databases, the previous website bibliography and the most recent 2025–2026 records available in the CV material.\n\nThe highlighted set prioritises:\n\nbiaxial tension–compression and compression–compression testing;\nshear characterisation;\npseudo-ductility and non-linear CFRP response;\nhigh-impact journals such as Composites Science and Technology, Composites Part B and Composite Structures.\n\nBefore the public launch, it is still advisable to compare references.bib with an up-to-date Scopus/ORCID/WoS export so that the section labelled “Full publication list” is fully exhaustive."
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "My research is developed within the COMES — Mecánica de los Medios Continuos, Ingeniería de Estructuras y de Materiales research group at the University of Castilla-La Mancha. The common thread is the mechanical response of materials and structures under complex loading, combining advanced experiments with analytical and numerical modelling.\nCOMES research group"
+  },
+  {
+    "objectID": "research.html#shear-characterisation-and-standardisation",
+    "href": "research.html#shear-characterisation-and-standardisation",
+    "title": "Research",
+    "section": "Shear characterisation and standardisation",
+    "text": "Shear characterisation and standardisation\n\n  \n    \n  \n  \n    Highlighted methodology\n    Biaxial tension–compression test · UNE 0074:2023\n    A central line of work is the determination of in-plane shear properties by means of a biaxial tension–compression test with a cruciform specimen. The methodology developed within COMES contributed to UNE 0074:2023 and to the BISHEAR proof-of-concept project.\n    The test is analysed together with conventional shear methods in order to compare the stress/strain state, experimental accessibility and suitability for advanced composite characterisation.\n  \n\n\n  \n    \n    Iosipescu · ASTM D5379/D5379M\n    V-notched beam method used to determine in-plane shear properties of composite materials.\n  \n  \n    \n    V-notched rail shear · ASTM D7078/D7078M\n    Rail-shear method used as a reference for comparison of the non-linear shear response and strength.\n  \n  \n    \n    ±45° tension · ASTM D3518/D3518M\n    Tensile characterization of a ±45° laminate, widely used to obtain the in-plane shear stress–strain response.\n  \n  \n    \n    Biaxial capability at INAIA\n    The Servosis four-actuator system extends the available biaxial loading space and full-field instrumentation capabilities."
+  },
+  {
+    "objectID": "research.html#experimental-and-numerical-capabilities",
+    "href": "research.html#experimental-and-numerical-capabilities",
+    "title": "Research",
+    "section": "Experimental and numerical capabilities",
+    "text": "Experimental and numerical capabilities\n\n  ExperimentalQuasi-static mechanical testing, biaxial loading, DIC, extensometry, composite specimens and structural test design.\n  NumericalAbaqus/FEA, non-linear mechanics, damage modelling, buckling and stability, micro/mesoscale simulations.\n  MaterialsCarbon-fibre reinforced polymer laminates, polymer systems, nanocomposites, lightweight structures and selected additively manufactured materials."
+  },
+  {
+    "objectID": "research.html#collaboration",
+    "href": "research.html#collaboration",
+    "title": "Research",
+    "section": "Collaboration",
+    "text": "Collaboration\nMy doctoral research included a three-month research stay at Ghent University in 2019, focused on micro- and mesomechanical damage modelling of angle-ply laminates under uniaxial and biaxial loading.\nFor collaboration proposals related to composite testing, numerical modelling or multiaxial mechanics, see the contact page."
+  },
+  {
+    "objectID": "TODO_BEFORE_PUBLICATION.html",
+    "href": "TODO_BEFORE_PUBLICATION.html",
+    "title": "Antes de publicar",
+    "section": "",
+    "text": "Antes de publicar\n\nRevisar visualmente la versión inglesa completa.\nRevisar visualmente la versión española completa.\nConfirmar que los logos institucionales utilizados son adecuados para publicación pública.\nConfirmar las denominaciones/financiación de RENO, CORA y BISHEAR.\nRevisar el listado bibliográfico completo y añadir cualquier publicación reciente que falte.\nConfirmar la formulación exacta de los reconocimientos de los TFG destacados.\nComprobar los enlaces ORCID, Scopus, Web of Science y LinkedIn.\nEjecutar quarto render sin errores.\nCrear repositorio GitHub y publicar con GitHub Pages."
+  }
+]
