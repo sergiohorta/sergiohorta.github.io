@@ -1,0 +1,16 @@
+---
+title: "Novedades"
+subtitle: "Investigación, docencia, divulgación y actividades del grupo"
+lang: es
+listing:
+  contents: "news/*/index.qmd"
+  type: grid
+  sort: "date desc"
+  fields: [image, date, title, description, categories]
+  categories: true
+  sort-ui: false
+  filter-ui: true
+  page-size: 12
+---
+
+Noticias breves sobre investigación, equipamiento, congresos, divulgación y actividades docentes, enlazando siempre que sea posible a la fuente institucional o del proyecto.

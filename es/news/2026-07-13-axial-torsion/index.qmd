@@ -1,0 +1,14 @@
+---
+title: "Nuevo equipamiento para ensayos axil–torsión en la EIIA-To"
+date: 2026-07-13
+lang: es
+description: "Nueva capacidad experimental en la EIIA-To para aplicar cargas mecánicas combinadas axiales y torsionales."
+categories: [Infraestructura, Mecánica experimental, COMES]
+image: ../../../assets/photos/axial-torsion.jpg
+---
+
+Las capacidades experimentales disponibles en la EIIA-To se han ampliado con equipamiento para realizar **ensayos combinados axil–torsión**. El sistema complementa los métodos multiaxiales y de medida de campo completo utilizados en la caracterización de materiales compuestos y otros materiales estructurales.
+
+![Equipamiento de ensayos axil–torsión en la EIIA-To.](../../../assets/photos/axial-torsion.jpg)
+
+[Leer la noticia de la UCLM](https://www.uclm.es/global/promotores/facultades-y-escuelas/toledo/to-industriales/novedades_eiia/2026_07_13_equipamiento_axil_torsion)

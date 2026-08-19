@@ -1,0 +1,27 @@
+---
+title: "Contacto"
+lang: es
+---
+
+## Universidad de Castilla-La Mancha
+
+**Sergio Horta Muñoz**  
+**Profesor Titular de Universidad**  
+Departamento de Mecánica Aplicada e Ingeniería de Proyectos  
+Escuela de Ingeniería Industrial y Aeroespacial de Toledo  
+Universidad de Castilla-La Mancha
+
+**Correo electrónico:** [sergio.horta@uclm.es](mailto:sergio.horta@uclm.es)
+
+**Despacho:** Real Fábrica de Armas, Edificio Sabatini, Toledo.
+
+## Perfiles académicos
+
+```{=html}
+<div class="profile-links profile-links-large">
+  <a href="https://orcid.org/0000-0002-6539-7980"><strong>ORCID</strong><span>0000-0002-6539-7980</span></a>
+  <a href="https://www.scopus.com/authid/detail.uri?authorId=58055226700"><strong>Scopus</strong><span>Author ID 58055226700</span></a>
+  <a href="https://www.webofscience.com/wos/author/record/Q-4783-2017"><strong>Web of Science</strong><span>Q-4783-2017</span></a>
+  <a href="https://www.linkedin.com/in/sergio-horta-munoz/"><strong>LinkedIn</strong><span>sergio-horta-munoz</span></a>
+</div>
+```

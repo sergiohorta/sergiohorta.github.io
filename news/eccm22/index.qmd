@@ -1,0 +1,15 @@
+---
+title: "COMES at ECCM22 in Oslo"
+date: 2026-06-25
+description: "COMES contributions on biaxial testing and micromechanical modelling at the 22nd European Conference on Composite Materials."
+categories: [Conference, Composites, COMES, RENO, CORA]
+image: ../../assets/photos/eccm22-poster.jpg
+---
+
+Researchers from COMES participated in **ECCM22**, held in Oslo in June 2026, presenting work on biaxial testing, shear characterisation and micromechanical modelling of damage in composite materials.
+
+![COMES researchers at ECCM22 in Oslo.](../../assets/photos/eccm22-poster.jpg)
+
+One of the contributions focused on the effect of relative fibre geometry on crack initiation and propagation under transverse and shear loading.
+
+[Read the COMES/UCLM news item](https://www.uclm.es/grupos/comes/novedades/eccm22)

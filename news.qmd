@@ -1,0 +1,15 @@
+---
+title: "News"
+subtitle: "Research, teaching, dissemination and group activities"
+listing:
+  contents: "news/*/index.qmd"
+  type: grid
+  sort: "date desc"
+  fields: [image, date, title, description, categories]
+  categories: true
+  sort-ui: false
+  filter-ui: true
+  page-size: 12
+---
+
+Short updates on research, infrastructure, conferences, dissemination and teaching-related activities. Whenever possible, entries link to the institutional or project source.

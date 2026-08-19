@@ -1,0 +1,56 @@
+project:
+  type: website
+  output-dir: _site
+
+lang: en
+
+website:
+  title: "Sergio Horta Muñoz"
+  description: "Continuum mechanics, composite materials, multiaxial testing and numerical modelling at UCLM."
+  navbar:
+    background: "#23282e"
+    left:
+      - href: index.qmd
+        text: Home
+      - href: research.qmd
+        text: Research
+      - href: projects.qmd
+        text: Projects
+      - href: publications.qmd
+        text: Publications
+      - href: teaching.qmd
+        text: Teaching
+      - href: news.qmd
+        text: News
+      - href: about.qmd
+        text: About
+    right:
+      - href: contact.qmd
+        text: Contact
+      - href: es/index.qmd
+        text: ES
+    search: true
+  page-footer:
+    left: "© 2026 Sergio Horta Muñoz · Universidad de Castilla-La Mancha"
+    right:
+      - text: "UCLM"
+        href: https://www.uclm.es/
+      - text: "COMES"
+        href: https://www.uclm.es/grupos/COMES
+      - text: "TRAMES"
+        href: https://www.uclm.es/grupos/comes/transferencia/utctrames
+  open-graph: true
+  twitter-card: true
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    toc-depth: 2
+    smooth-scroll: true
+    link-external-newwindow: true
+    include-after-body: assets/language-nav.html
+
+execute:
+  freeze: auto

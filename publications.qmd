@@ -1,0 +1,40 @@
+---
+title: "Publications"
+subtitle: "Selected highlights and full publication list"
+bibliography: references.bib
+nocite: |
+  @*
+---
+
+## Latest work
+
+```{=html}
+<div class="publication-highlights">
+  <div class="publication-item"><span class="pub-year">2026</span><div><strong>Comparison of the in-plane shear response of a FRP obtained by biaxial tension-compression test and standard methods.</strong><br><em>Composites Science and Technology</em> 276, 111519. <a href="https://doi.org/10.1016/j.compscitech.2026.111519">DOI</a></div></div>
+  <div class="publication-item"><span class="pub-year">2024</span><div><strong>Experimental evaluation of the use of cruciform specimens for biaxial stability analysis.</strong><br><em>Composites Part B: Engineering</em> 286, 111764. Compression–compression biaxial testing and stability. <a href="https://doi.org/10.1016/j.compositesb.2024.111764">DOI</a></div></div>
+  <div class="publication-item"><span class="pub-year">2023</span><div><strong>Tension–compression biaxial test with ±45° symmetric angle-ply laminates for determining the pure shear response in principal material directions of a lamina.</strong><br><em>Composites Part B: Engineering</em> 261, 110792. <a href="https://doi.org/10.1016/j.compositesb.2023.110792">DOI</a></div></div>
+  <div class="publication-item"><span class="pub-year">2022</span><div><strong>Pseudo-ductile effects in ±45° angle-ply CFRP laminates under uniaxial loading: compression and cyclic tensile test.</strong><br><em>Composites Part B: Engineering</em> 233, 109631. <a href="https://doi.org/10.1016/j.compositesb.2022.109631">DOI</a></div></div>
+  <div class="publication-item"><span class="pub-year">2020</span><div><strong>Mechanical response of ±45° angle-ply CFRP plates under low-velocity impact and quasi-static indentation: influence of the multidirectional strain state.</strong><br><em>Composites Science and Technology</em> 194, 108145. <a href="https://doi.org/10.1016/j.compscitech.2020.108145">DOI</a></div></div>
+  <div class="publication-item"><span class="pub-year">2018</span><div><strong>Pseudo-ductility in flexural testing of symmetric ±45° angle-ply CFRP laminates.</strong><br><em>Composites Science and Technology</em> 156, 8–18. <a href="https://doi.org/10.1016/j.compscitech.2017.12.015">DOI</a></div></div>
+</div>
+```
+
+## Recent conference contribution
+
+**Effect of Relative Fiber Angles and Distances in Microscale Modelling of Crack Initiation and Propagation under Transverse and Shear Loading.**  
+Oral communication presented at **ECCM22 — 22nd European Conference on Composite Materials**, Oslo, 2026.
+
+## Main research themes
+
+```{=html}
+<div class="card-grid publication-themes">
+  <div class="info-card"><h3>Biaxial testing & shear</h3><p>Cruciform specimens, tension–compression and compression–compression tests, shear characterisation, stability and standardisation.</p></div>
+  <div class="info-card"><h3>Non-linearity & damage</h3><p>Pseudo-ductility, angle-ply laminates, cyclic loading, impact and progressive changes in stiffness.</p></div>
+  <div class="info-card"><h3>Computational mechanics</h3><p>Micromechanics, damage modelling, piezoelectric optimisation and other finite-element applications.</p></div>
+</div>
+```
+
+## Full publication list
+
+::: {#refs}
+:::

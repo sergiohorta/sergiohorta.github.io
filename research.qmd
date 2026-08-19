@@ -1,0 +1,109 @@
+---
+title: "Research"
+subtitle: "Experimental and numerical mechanics of advanced materials"
+---
+
+My research is developed within the **COMES — Mecánica de los Medios Continuos, Ingeniería de Estructuras y de Materiales** research group at the University of Castilla-La Mancha. The common thread is the mechanical response of materials and structures under complex loading, combining advanced experiments with analytical and numerical modelling.
+
+[COMES research group](https://www.uclm.es/grupos/COMES)
+
+```{=html}
+<div class="research-matrix">
+  <article class="research-block">
+    <img src="assets/photos/servosis-close.jpg" alt="Servosis biaxial testing system during an instrumented test.">
+    <div class="research-block-copy">
+      <div class="eyebrow">Experimental mechanics</div>
+      <h3>Multiaxial testing</h3>
+      <p>Design and interpretation of biaxial and multiaxial tests, particularly with cruciform specimens. Current work includes tension–tension, tension–compression and compression-dominated load states, specimen stability and full-field strain measurement.</p>
+      <div class="method-line">DIC · strain gauges · cruciform specimens · instability analysis</div>
+    </div>
+  </article>
+
+  <article class="research-block">
+    <img src="assets/photos/cruciform-specimens.jpg" alt="CFRP cruciform specimens prepared for multiaxial testing.">
+    <div class="research-block-copy">
+      <div class="eyebrow">Composite mechanics</div>
+      <h3>Non-linear response of CFRP laminates</h3>
+      <p>Study of symmetric angle-ply laminates whose response is strongly governed by in-plane shear, including pseudo-ductility, fibre reorientation, damage accumulation and the transition between different response stages.</p>
+      <div class="method-line">angle-ply CFRP · pseudo-ductility · non-linearity · failure</div>
+    </div>
+  </article>
+
+  <article class="research-block">
+    <img class="simulation-image" src="assets/numerical/rve-damage-white.jpg" alt="Micromechanical finite-element model with cracks around fibres.">
+    <div class="research-block-copy">
+      <div class="eyebrow">Computational mechanics</div>
+      <h3>Damage and failure modelling</h3>
+      <p>Finite-element simulation at different scales, from representative fibre–matrix models to laminate-level damage formulations. Abaqus is used to analyse initiation, stiffness degradation, crack propagation and failure under multiaxial loading.</p>
+      <div class="method-line">Abaqus · FEM/XFEM · micro/mesoscale · progressive damage</div>
+    </div>
+  </article>
+
+  <article class="research-block">
+    <img src="assets/photos/dic-biaxial-2026.jpg" alt="Digital Image Correlation equipment used during mechanical testing.">
+    <div class="research-block-copy">
+      <div class="eyebrow">Full-field experiments</div>
+      <h3>Measurement & inverse interpretation</h3>
+      <p>Integration of Digital Image Correlation with mechanical testing to obtain heterogeneous strain fields, identify local phenomena and support the validation or inverse identification of numerical models.</p>
+      <div class="method-line">2D/3D DIC · full-field strain · model validation</div>
+    </div>
+  </article>
+</div>
+```
+
+## Shear characterisation and standardisation
+
+```{=html}
+<div class="shear-showcase">
+  <div class="shear-main-image">
+    <img src="assets/photos/une-biaxial-test.jpg" alt="Biaxial tension-compression shear test using a cruciform specimen and dedicated fixture.">
+  </div>
+  <div class="shear-main-copy">
+    <div class="eyebrow">Highlighted methodology</div>
+    <h3>Biaxial tension–compression test · UNE 0074:2023</h3>
+    <p>A central line of work is the determination of in-plane shear properties by means of a biaxial tension–compression test with a cruciform specimen. The methodology developed within COMES contributed to <strong>UNE 0074:2023</strong> and to the BISHEAR proof-of-concept project.</p>
+    <p>The test is analysed together with conventional shear methods in order to compare the stress/strain state, experimental accessibility and suitability for advanced composite characterisation.</p>
+  </div>
+</div>
+```
+
+```{=html}
+<div class="mini-method-grid standards-grid">
+  <div class="mini-method-card">
+    <img src="assets/photos/iosipescu-d5379.jpg" alt="Iosipescu V-notched beam test in a dedicated shear fixture.">
+    <h4>Iosipescu · ASTM D5379/D5379M</h4>
+    <p>V-notched beam method used to determine in-plane shear properties of composite materials.</p>
+  </div>
+  <div class="mini-method-card">
+    <img src="assets/photos/v-notched-shear.jpg" alt="V-notched rail shear fixture installed in a universal testing machine.">
+    <h4>V-notched rail shear · ASTM D7078/D7078M</h4>
+    <p>Rail-shear method used as a reference for comparison of the non-linear shear response and strength.</p>
+  </div>
+  <div class="mini-method-card">
+    <img src="assets/photos/plusminus45-d3518.jpg" alt="Tabbed composite coupons prepared for a plus-minus 45 degree tensile shear test.">
+    <h4>±45° tension · ASTM D3518/D3518M</h4>
+    <p>Tensile characterization of a ±45° laminate, widely used to obtain the in-plane shear stress–strain response.</p>
+  </div>
+  <div class="mini-method-card">
+    <img src="assets/photos/servosis-specimen.jpg" alt="Cruciform specimen in the Servosis biaxial testing system at INAIA.">
+    <h4>Biaxial capability at INAIA</h4>
+    <p>The Servosis four-actuator system extends the available biaxial loading space and full-field instrumentation capabilities.</p>
+  </div>
+</div>
+```
+
+## Experimental and numerical capabilities
+
+```{=html}
+<div class="card-grid">
+  <div class="info-card"><h3>Experimental</h3><p>Quasi-static mechanical testing, biaxial loading, DIC, extensometry, composite specimens and structural test design.</p></div>
+  <div class="info-card"><h3>Numerical</h3><p>Abaqus/FEA, non-linear mechanics, damage modelling, buckling and stability, micro/mesoscale simulations.</p></div>
+  <div class="info-card"><h3>Materials</h3><p>Carbon-fibre reinforced polymer laminates, polymer systems, nanocomposites, lightweight structures and selected additively manufactured materials.</p></div>
+</div>
+```
+
+## Collaboration
+
+My doctoral research included a three-month research stay at **Ghent University** in 2019, focused on micro- and mesomechanical damage modelling of angle-ply laminates under uniaxial and biaxial loading.
+
+For collaboration proposals related to composite testing, numerical modelling or multiaxial mechanics, see the [contact page](contact.html).

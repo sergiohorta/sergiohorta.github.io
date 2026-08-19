@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="190" viewBox="0 0 760 190">
+<rect width="760" height="190" rx="24" fill="white"/>
+<g transform="translate(34 26)">
+<path d="M0 18h78v18H49v88H29V36H0z" fill="#8b1e2d"/>
+<text x="98" y="79" font-family="Arial, Helvetica, sans-serif" font-size="66" font-weight="700" fill="#27313a">TRAMES</text>
+<text x="101" y="116" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#5c6873">Transferencia en Materiales, Estructuras y Simulación</text>
+<text x="101" y="148" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#8b1e2d">COMES · Universidad de Castilla-La Mancha</text>
+</g>
+</svg>

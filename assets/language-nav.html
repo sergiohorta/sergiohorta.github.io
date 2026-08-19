@@ -1,0 +1,50 @@
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const path = window.location.pathname;
+  const isEs = /\/es(?:\/|$)/.test(path);
+
+  const translations = {
+    "Home":"Inicio", "Research":"Investigación", "Projects":"Proyectos",
+    "Publications":"Publicaciones", "Teaching":"Docencia", "News":"Novedades",
+    "About":"Perfil", "Contact":"Contacto"
+  };
+  const pages = ["index.html","research.html","projects.html","publications.html","teaching.html","news.html","about.html","contact.html"];
+
+  function spanishCounterpart(p) {
+    if (/\/es(?:\/|$)/.test(p)) return p;
+    if (p.endsWith("/")) return p + "es/index.html";
+    if (p.includes("/news/")) return p.replace("/news/", "/es/news/");
+    return p.replace(/\/([^\/]+\.html)$/, "/es/$1");
+  }
+  function englishCounterpart(p) {
+    if (p.endsWith("/es/")) return p.replace(/\/es\/$/, "/index.html");
+    return p.replace("/es/", "/");
+  }
+
+  const links = Array.from(document.querySelectorAll(".navbar a.nav-link"));
+  links.forEach(a => {
+    const originalText = (a.textContent || "").trim();
+    const href = a.getAttribute("href") || "";
+    const file = href.split("/").pop();
+
+    if (isEs) {
+      if (translations[originalText]) a.textContent = translations[originalText];
+      if (pages.includes(file)) a.setAttribute("href", file);
+      if (originalText === "ES") {
+        a.textContent = "EN";
+        a.setAttribute("href", englishCounterpart(path));
+        a.classList.add("lang-toggle");
+      }
+    } else if (originalText === "ES") {
+      a.setAttribute("href", spanishCounterpart(path));
+      a.classList.add("lang-toggle");
+    }
+  });
+
+  const brand = document.querySelector(".navbar-brand");
+  if (brand && isEs) {
+    const base = path.split("/es/")[0];
+    brand.setAttribute("href", base + "/es/index.html");
+  }
+});
+</script>

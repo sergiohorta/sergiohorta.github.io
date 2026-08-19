@@ -1,0 +1,13 @@
+---
+title: "New axial–torsion testing equipment at EIIA-To"
+date: 2026-07-13
+description: "New experimental capacity at EIIA-To for combined axial and torsional mechanical loading."
+categories: [Research infrastructure, Experimental mechanics, COMES]
+image: ../../assets/photos/axial-torsion.jpg
+---
+
+The experimental capabilities available at EIIA-To have expanded with equipment for combined **axial–torsion mechanical testing**. The system complements the multiaxial and full-field experimental methods used in current work on composite materials and other structural materials.
+
+![Axial–torsion testing equipment at EIIA-To.](../../assets/photos/axial-torsion.jpg)
+
+[Read the UCLM news item](https://www.uclm.es/global/promotores/facultades-y-escuelas/toledo/to-industriales/novedades_eiia/2026_07_13_equipamiento_axil_torsion)

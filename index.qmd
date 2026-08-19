@@ -1,0 +1,87 @@
+---
+title: ""
+page-layout: full
+format:
+  html:
+    toc: false
+---
+
+```{=html}
+<div class="hero-panel">
+  <div class="hero-copy">
+    <div class="hero-kicker">Continuum mechanics · Composite materials · Experimental mechanics</div>
+    <h1>Sergio Horta Muñoz</h1>
+    <div class="hero-subtitle">
+      Associate Professor (<em>Profesor Titular de Universidad</em>) at the University of Castilla-La Mancha. My work combines advanced mechanical testing and finite-element modelling to understand the non-linear response, damage and failure of composite materials under complex loading states.
+    </div>
+    <div class="button-row">
+      <a class="shm-button" href="research.html">Research</a>
+      <a class="shm-button-outline" href="publications.html">Publications</a>
+      <a class="shm-button-outline" href="projects.html">Current projects</a>
+    </div>
+  </div>
+  <div class="hero-image">
+    <img src="assets/photos/hero-servosis.jpg" alt="Biaxial testing laboratory at INAIA with a Servosis four-actuator testing system and Digital Image Correlation equipment.">
+    <div class="photo-caption">Biaxial testing laboratory at INAIA.</div>
+  </div>
+</div>
+```
+
+## Research focus
+
+```{=html}
+<div class="section-intro">
+My research spans the complete experimental–numerical workflow: test design and instrumentation, multiaxial and shear characterisation, full-field measurements, and finite-element models from the microscale to the laminate level.
+</div>
+```
+
+```{=html}
+<div class="card-grid home-focus">
+  <div class="info-card"><h3>Multiaxial testing</h3><p>Biaxial and multiaxial characterisation, cruciform specimens, combined tension/compression loading, test design and stability.</p></div>
+  <div class="info-card"><h3>Composite mechanics</h3><p>Non-linear and pseudo-ductile response of angle-ply CFRP laminates, shear-dominated behaviour and failure mechanisms.</p></div>
+  <div class="info-card"><h3>Numerical modelling</h3><p>Finite Element Analysis, mainly with Abaqus, including micromechanics, damage initiation, progressive failure and virtual testing.</p></div>
+</div>
+```
+
+
+## From experiment to simulation
+
+```{=html}
+<div class="research-image-grid">
+  <div class="research-image-card">
+    <img src="assets/photos/servosis-specimen.jpg" alt="Cruciform specimen installed in the new Servosis biaxial testing machine.">
+    <div class="media-card-copy"><strong>Experimental mechanics</strong><br>Biaxial loading, custom fixtures and full-field measurements.</div>
+  </div>
+  <div class="research-image-card">
+    <img src="assets/numerical/rve-damage-white.jpg" alt="Micromechanical model showing crack propagation around fibres.">
+    <div class="media-card-copy"><strong>Micromechanical modelling</strong><br>Damage initiation and crack propagation at fibre–matrix scale.</div>
+  </div>
+  <div class="research-image-card">
+    <img src="assets/photos/cruciform-failure.jpg" alt="Failed CFRP cruciform specimen after mechanical testing.">
+    <div class="media-card-copy"><strong>Damage & failure</strong><br>Experimental interpretation of complex failure patterns in CFRP laminates.</div>
+  </div>
+</div>
+```
+
+## Teaching
+
+My current teaching activity is centred on **Resistencia de Materiales** and **Mecánica del Sólido Deformable**, particularly in the Bachelor's Degree in Aerospace Engineering at the School of Industrial and Aerospace Engineering of Toledo (UCLM).
+
+[Teaching and educational innovation →](teaching.html)
+
+## Latest updates
+
+[News and activities →](news.html)
+
+## Affiliations
+
+
+```{=html}
+<div class="affiliation-strip five-logos">
+  <a class="affiliation-logo" href="https://www.uclm.es/"><img src="assets/logos/uclm.png" alt="UCLM"></a>
+  <a class="affiliation-logo" href="https://www.uclm.es/toledo/eiia"><img src="assets/logos/eiia.png" alt="EIIA Toledo"></a>
+  <a class="affiliation-logo" href="https://uclm-inaia.github.io/"><img src="assets/logos/inaia.png" alt="INAIA"></a>
+  <a class="affiliation-logo" href="https://www.uclm.es/grupos/COMES"><img src="assets/logos/comes.png" alt="COMES"></a>
+  <a class="affiliation-logo trames-logo" href="https://www.uclm.es/grupos/comes/transferencia/utctrames"><img src="assets/logos/trames.png" alt="TRAMES"></a>
+</div>
+```

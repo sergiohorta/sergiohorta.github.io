@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 700" role="img" aria-label="Abstract placeholder for a multiaxial cruciform composite test">
+<defs>
+  <linearGradient id="g" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#f7f8fa"/><stop offset="1" stop-color="#e7ebef"/></linearGradient>
+  <pattern id="p" width="18" height="18" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="9" height="18" fill="#2b3137"/><rect x="9" width="9" height="18" fill="#343b42"/></pattern>
+</defs>
+<rect width="900" height="700" fill="url(#g)"/>
+<g transform="translate(450 350)">
+  <rect x="-88" y="-290" width="176" height="580" rx="28" fill="url(#p)"/>
+  <rect x="-290" y="-88" width="580" height="176" rx="28" fill="url(#p)"/>
+  <circle r="102" fill="#8b1e2d" opacity=".92"/>
+  <circle r="73" fill="none" stroke="#fff" stroke-width="4" opacity=".75"/>
+  <path d="M-58 -20 C-15 -55, 20 48, 62 10" fill="none" stroke="#fff" stroke-width="5" opacity=".9"/>
+</g>
+<g fill="#15202b" opacity=".55" font-family="Arial, sans-serif" font-size="22">
+<text x="48" y="628">PLACEHOLDER · replace with your biaxial test / DIC photograph</text>
+</g>
+</svg>

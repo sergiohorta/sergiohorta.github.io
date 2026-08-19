@@ -1,0 +1,16 @@
+---
+title: "COMES en ECCM22, Oslo"
+date: 2026-06-25
+lang: es
+description: "Contribuciones de COMES sobre ensayo biaxial y modelado micromecánico en el 22nd European Conference on Composite Materials."
+categories: [Congreso, Materiales compuestos, COMES, RENO, CORA]
+image: ../../../assets/photos/eccm22-poster.jpg
+---
+
+Investigadores de COMES participaron en **ECCM22**, celebrado en Oslo en junio de 2026, presentando trabajos relacionados con ensayo biaxial, caracterización de cortadura y modelado micromecánico del daño en materiales compuestos.
+
+![Investigadores de COMES en ECCM22, Oslo.](../../../assets/photos/eccm22-poster.jpg)
+
+Una de las contribuciones se centró en el efecto de la geometría relativa de las fibras sobre la iniciación y propagación de grietas ante cargas transversales y de cortadura.
+
+[Leer la noticia de COMES/UCLM](https://www.uclm.es/grupos/comes/novedades/eccm22)
