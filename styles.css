@@ -505,3 +505,18 @@ a:hover { color: var(--shm-accent-dark); }
 @media (max-width: 680px) {
   .standards-grid { grid-template-columns: 1fr; }
 }
+
+/* v0.7: project visual identity */
+.project-inline-logo {
+  display:block;
+  width:min(330px, 88%);
+  max-height:135px;
+  object-fit:contain;
+  object-position:left center;
+  margin:0 0 .85rem;
+}
+.project-inline-logo-dark {
+  border-radius:10px;
+  background:#151821;
+  padding:.35rem .55rem;
+}
