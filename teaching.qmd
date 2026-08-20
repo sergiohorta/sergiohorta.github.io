@@ -46,7 +46,7 @@ Supervision is mainly connected with four recurring lines:
 Selected supervised or co-supervised projects include:
 
 - **Ayman Berrem Khalid (2025):** improvement of the design and manufacture of a device for biaxial testing — one of the co-supervised TFGs subsequently recognised with an award.
-- **César Cano García (2025):** ionising radiation in composite materials.
+- **Alexandru Dragomir Mandea (2025):** interface and matrix cracking detection and measurement algorithm for microscale FE simulations.
 - **Claudia Llario Alegre (2024):** device for tension–compression biaxial testing in a uniaxial machine — graded 10/10 and awarded a quality mention.
 - **Abraham Sánchez Romero (2023):** processing and mechanical characterisation of lightweight CFRP–Nomex sandwich structures — award-recognised co-supervised TFG.
 - **Vicente Arévalo Madrid (2022):** micromechanical modelling of unidirectional fibre-reinforced composites — graded 10/10, quality mention and subsequent recognition.

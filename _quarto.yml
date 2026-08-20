@@ -7,6 +7,7 @@ lang: en
 website:
   title: "Sergio Horta Muñoz"
   description: "Continuum mechanics, composite materials, multiaxial testing and numerical modelling at UCLM."
+  favicon: assets/logos/favicon-comes.png
   navbar:
     background: "#23282e"
     left:
